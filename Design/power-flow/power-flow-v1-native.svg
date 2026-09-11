@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+  <rect width="760" height="420" rx="28" fill="#1c1c1e"/>
+  <rect x="18" y="18" width="724" height="384" rx="26" fill="#202023" stroke="#5f6064" stroke-width="1"/>
+
+  <g fill="none" stroke="#9b9b9f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- adapter -->
+    <path d="M85 174v-18m-10 0h20m-14 18v-10m8 10v-10"/>
+    <path d="M78 174c0 8 14 8 14 0"/>
+    <!-- laptop -->
+    <rect x="177" y="180" width="39" height="27" rx="2"/>
+    <path d="M171 213h51m-44-6-4 6m40-6 4 6"/>
+    <!-- display -->
+    <rect x="584" y="99" width="22" height="16" rx="2"/>
+    <path d="M580 119h30"/>
+    <!-- chip -->
+    <rect x="583" y="174" width="20" height="20" rx="3"/>
+    <path d="M588 170v-5m5 5v-5m5 5v-5m-10 34v5m5-5v5m5-5v5m-14-29h-5m5 5h-5m5 5h-5m29-10h5m-5 5h5m-5 5h5"/>
+    <!-- other -->
+    <circle cx="587" cy="264" r="2" fill="#9b9b9f" stroke="none"/>
+    <circle cx="596" cy="264" r="2" fill="#9b9b9f" stroke="none"/>
+    <circle cx="605" cy="264" r="2" fill="#9b9b9f" stroke="none"/>
+  </g>
+
+  <!-- 0.2.2-style quiet flow tubes -->
+  <path d="M134 190 C144 190 146 190 160 190 L160 222 C146 222 144 222 134 222Z" fill="#d8d8dc" opacity=".22"/>
+  <path d="M260 262 C330 262 335 107 550 107 L550 132 C352 132 345 278 260 278Z" fill="#d8d8dc" opacity=".18"/>
+  <path d="M260 262 C345 262 350 181 550 181 L550 206 C364 206 345 276 260 276Z" fill="#d8d8dc" opacity=".15"/>
+  <path d="M260 263 C355 263 365 271 550 271 L550 296 C365 296 349 279 260 279Z" fill="#d8d8dc" opacity=".22"/>
+
+  <!-- nodes -->
+  <rect x="42" y="102" width="92" height="214" rx="26" fill="#252528" stroke="#696a6e" stroke-width="1.5"/>
+  <rect x="160" y="106" width="100" height="206" rx="22" fill="#27272a" stroke="#696a6e" stroke-width="1.5"/>
+  <g fill="#f2f2f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" text-anchor="middle">
+    <text x="88" y="246" font-size="18" font-weight="600">7.1 W</text>
+    <text x="210" y="276" font-size="16" font-weight="600">7.1 W</text>
+  </g>
+  <g>
+    <rect x="550" y="86" width="146" height="50" rx="17" fill="#29292c" stroke="#696a6e" stroke-width="1.5"/>
+    <rect x="550" y="160" width="146" height="50" rx="17" fill="#29292c" stroke="#696a6e" stroke-width="1.5"/>
+    <rect x="550" y="234" width="146" height="50" rx="17" fill="#29292c" stroke="#696a6e" stroke-width="1.5"/>
+    <g fill="#f2f2f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600">
+      <text x="650" y="118" text-anchor="middle">2.5 W</text>
+      <text x="650" y="192" text-anchor="middle">0.5 W</text>
+      <text x="650" y="266" text-anchor="middle">4.1 W</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#b8b8bd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M85 174v-18m-10 0h20m-14 18v-10m8 10v-10M78 174c0 8 14 8 14 0"/>
+    <rect x="177" y="180" width="39" height="27" rx="2"/>
+    <path d="M171 213h51m-44-6-4 6m40-6 4 6"/>
+    <rect x="584" y="99" width="22" height="16" rx="2"/><path d="M580 119h30"/>
+    <rect x="583" y="174" width="20" height="20" rx="3"/>
+    <path d="M588 170v-5m5 5v-5m5 5v-5m-10 34v5m5-5v5m5-5v5m-14-29h-5m5 5h-5m5 5h-5m29-10h5m-5 5h5m-5 5h5"/>
+    <circle cx="587" cy="264" r="2" fill="#b8b8bd" stroke="none"/>
+    <circle cx="596" cy="264" r="2" fill="#b8b8bd" stroke="none"/>
+    <circle cx="605" cy="264" r="2" fill="#b8b8bd" stroke="none"/>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="base" x1="178" y1="90" x2="832" y2="934" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13C789"/>
+      <stop offset="0.48" stop-color="#00AFA4"/>
+      <stop offset="1" stop-color="#3342A5"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="translate(330 246) rotate(46) scale(590)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7FFE0" stop-opacity="0.70"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="280" y1="284" x2="722" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9FFF4" stop-opacity="0.34"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#071A2A" stop-opacity="0.24"/>
+    </linearGradient>
+    <filter id="panelDepth" x="-35%" y="-40%" width="170%" height="190%">
+      <feDropShadow dx="0" dy="32" stdDeviation="30" flood-color="#071328" flood-opacity="0.36"/>
+      <feDropShadow dx="0" dy="-8" stdDeviation="8" flood-color="#FFFFFF" flood-opacity="0.58"/>
+    </filter>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="12"/></filter>
+    <clipPath id="shape"><rect x="40" y="40" width="944" height="944" rx="226"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#shape)">
+    <rect x="40" y="40" width="944" height="944" rx="226" fill="url(#base)"/>
+    <rect x="40" y="40" width="944" height="944" rx="226" fill="url(#light)"/>
+    <circle cx="190" cy="704" r="230" fill="#38FF9B" fill-opacity="0.26"/>
+    <circle cx="864" cy="248" r="190" fill="#78FAD5" fill-opacity="0.20"/>
+
+    <g filter="url(#panelDepth)">
+      <rect x="226" y="226" width="572" height="572" rx="170" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity="0.52" stroke-width="12"/>
+      <rect x="246" y="246" width="532" height="532" rx="150" fill="none" stroke="#A7FFE0" stroke-opacity="0.22" stroke-width="5"/>
+      <path d="M286 350C382 270 616 264 724 356" fill="none" stroke="#FFFFFF" stroke-opacity="0.56" stroke-width="16" stroke-linecap="round"/>
+      <ellipse cx="616" cy="694" rx="122" ry="46" fill="#001E2A" fill-opacity="0.22"/>
+    </g>
+
+    <g fill="none" stroke="#DFFFF2" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="322" y="382" width="350" height="232" rx="78"/>
+      <path d="M672 446H704C724 446 740 462 740 482V514C740 534 724 550 704 550H672"/>
+      <path d="M378 486V544C378 574 402 598 432 598H460"/>
+      <path d="M350 468H406V522H350Z"/>
+      <path d="M364 438V468M392 438V468"/>
+    </g>
+    <path d="M514 392L450 500H520L490 584L620 458H546L576 392Z" fill="#7BFFD0" opacity="0.52" filter="url(#glow)"/>
+    <path d="M514 392L450 500H520L490 584L620 458H546L576 392Z" fill="#E6FFF5"/>
+
+    <rect x="42" y="42" width="940" height="940" rx="224" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="4"/>
+  </g>
+</svg>

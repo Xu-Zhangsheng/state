@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="glass" x1="230" y1="300" x2="790" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#56E891" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#0CBF67" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="290" y1="340" x2="290" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#087A45" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="40" y="40" width="944" height="944" rx="226" fill="#FFFFFF" stroke="#DFF6E9" stroke-width="4"/>
+  <g filter="url(#shadow)">
+    <rect x="176" y="330" width="624" height="364" rx="122" fill="url(#glass)" stroke="#079653" stroke-width="14"/>
+    <path d="M800 430H842C865 430 884 449 884 472V552C884 575 865 594 842 594H800" fill="#2AD47B" fill-opacity="0.58" stroke="#079653" stroke-width="14"/>
+    <path d="M236 374H724C744 374 760 390 760 410V448H236Z" fill="url(#shine)"/>
+    <path d="M470 396L392 532H478L442 632L604 476H510L548 396Z" fill="#FFFFFF"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M282 474V548C282 584 311 613 347 613H374"/>
+      <path d="M250 456H314V516H250Z"/>
+      <path d="M266 426V456M298 426V456"/>
+    </g>
+  </g>
+</svg>

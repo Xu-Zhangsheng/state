@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="tile" x1="128" y1="104" x2="892" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1FFF7"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="220" y1="320" x2="816" y2="704" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.62"/>
+      <stop offset="0.42" stop-color="#B8FFD5" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#09B95C" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="218" y1="318" x2="816" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="0.48" stop-color="#B9EED0" stop-opacity="0.50"/>
+      <stop offset="1" stop-color="#0B5E35" stop-opacity="0.62"/>
+    </linearGradient>
+    <filter id="blur40" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <filter id="glassDepth" x="-25%" y="-35%" width="150%" height="180%">
+      <feDropShadow dx="0" dy="30" stdDeviation="28" flood-color="#0A4329" flood-opacity="0.22"/>
+      <feDropShadow dx="0" dy="-7" stdDeviation="8" flood-color="#FFFFFF" flood-opacity="0.72"/>
+    </filter>
+    <filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <clipPath id="tileClip"><rect x="40" y="40" width="944" height="944" rx="226"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#tileClip)">
+    <rect x="40" y="40" width="944" height="944" rx="226" fill="url(#tile)"/>
+    <circle cx="274" cy="354" r="190" fill="#73FFA8" fill-opacity="0.68" filter="url(#blur40)"/>
+    <circle cx="778" cy="662" r="220" fill="#00A95A" fill-opacity="0.48" filter="url(#blur40)"/>
+    <path d="M120 750C320 610 502 824 914 520" fill="none" stroke="#C6FFE0" stroke-width="92" stroke-linecap="round" opacity="0.48" filter="url(#blur40)"/>
+
+    <g filter="url(#glassDepth)">
+      <rect x="160" y="310" width="666" height="404" rx="142" fill="url(#glass)" stroke="url(#rim)" stroke-width="18"/>
+      <path d="M826 418H864C892 418 914 440 914 468V556C914 584 892 606 864 606H826" fill="#FFFFFF" fill-opacity="0.28" stroke="url(#rim)" stroke-width="18"/>
+      <rect x="185" y="335" width="616" height="354" rx="119" fill="none" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="5"/>
+      <path d="M232 372C344 322 612 326 746 392" fill="none" stroke="#FFFFFF" stroke-opacity="0.74" stroke-width="16" stroke-linecap="round"/>
+      <ellipse cx="650" cy="636" rx="114" ry="36" fill="#087B45" fill-opacity="0.13" filter="url(#blur40)"/>
+    </g>
+
+    <g fill="none" stroke="#00A95A" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M296 474V548C296 584 325 613 361 613H404" stroke-width="28" opacity="0.34" filter="url(#neon)"/>
+      <path d="M296 474V548C296 584 325 613 361 613H404" stroke-width="24"/>
+      <path d="M262 452H330V516H262Z" stroke-width="24"/>
+      <path d="M280 418V452M312 418V452" stroke-width="24"/>
+    </g>
+    <path d="M512 380L432 516H520L484 618L642 466H550L586 380Z" fill="#00A95A" opacity="0.32" filter="url(#neon)"/>
+    <path d="M512 380L432 516H520L484 618L642 466H550L586 380Z" fill="#00A95A"/>
+
+    <rect x="42" y="42" width="940" height="940" rx="224" fill="none" stroke="#D8F4E4" stroke-width="4"/>
+  </g>
+</svg>

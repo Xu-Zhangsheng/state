@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="glass" x1="236" y1="280" x2="802" y2="742" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF9F0" stop-opacity="0.88"/>
+      <stop offset="0.46" stop-color="#C4EBD3" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#69C493" stop-opacity="0.60"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="238" y1="286" x2="804" y2="738" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.20" stop-color="#EEFFF5" stop-opacity="0.96"/>
+      <stop offset="0.58" stop-color="#84CFA5" stop-opacity="0.90"/>
+      <stop offset="1" stop-color="#147047" stop-opacity="0.96"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-40%" width="170%" height="190%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#145C3C" flood-opacity="0.18"/>
+      <feDropShadow dx="0" dy="30" stdDeviation="26" flood-color="#064D2E" flood-opacity="0.30"/>
+      <feDropShadow dx="0" dy="-8" stdDeviation="8" flood-color="#FFFFFF" flood-opacity="1"/>
+    </filter>
+    <clipPath id="tile"><rect x="40" y="40" width="944" height="944" rx="224"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect x="40" y="40" width="944" height="944" rx="224" fill="#FFFFFF"/>
+    <g filter="url(#shadow)">
+      <rect x="806" y="398" width="124" height="228" rx="68" fill="url(#rim)"/>
+      <rect x="828" y="422" width="78" height="180" rx="42" fill="url(#glass)"/>
+      <rect x="174" y="296" width="656" height="432" rx="150" fill="url(#glass)"/>
+      <path fill="url(#rim)" fill-rule="evenodd" d="M324 296H680Q830 296 830 446V578Q830 728 680 728H324Q174 728 174 578V446Q174 296 324 296ZM324 320Q198 320 198 446V578Q198 704 324 704H680Q806 704 806 578V446Q806 320 680 320Z"/>
+    </g>
+    <g fill="none" stroke="#009E57" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M330 438V500H414V438M352 398V438M392 398V438M372 500V558C372 598 404 630 444 630H474"/>
+    </g>
+    <path d="M594 382L494 536H582L544 652L708 478H612L666 382Z" fill="#009E57"/>
+  </g>
+</svg>

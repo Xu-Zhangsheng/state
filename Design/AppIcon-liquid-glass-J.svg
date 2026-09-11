@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="glass" x1="246" y1="300" x2="790" y2="718" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#66716B" stop-opacity="0.88"/>
+      <stop offset="0.50" stop-color="#26332D" stop-opacity="0.90"/>
+      <stop offset="1" stop-color="#101714" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="256" y1="314" x2="786" y2="704" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="0.44" stop-color="#BCC7C1" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#07100C" stop-opacity="0.82"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-40%" width="170%" height="190%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#0A432B" flood-opacity="0.30"/>
+      <feDropShadow dx="0" dy="-8" stdDeviation="8" flood-color="#FFFFFF" flood-opacity="0.70"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="11"/></filter>
+    <clipPath id="tile"><rect x="40" y="40" width="944" height="944" rx="224"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect x="40" y="40" width="944" height="944" rx="224" fill="#FFFFFF"/>
+    <g filter="url(#shadow)">
+      <rect x="182" y="304" width="640" height="416" rx="142" fill="url(#glass)" stroke="url(#edge)" stroke-width="14"/>
+      <path d="M822 414H858C892 414 914 438 914 470V554C914 586 892 610 858 610H822Z" fill="url(#glass)" stroke="url(#edge)" stroke-width="14"/>
+    </g>
+    <g opacity="0.52" filter="url(#glow)" fill="#34F394" stroke="#34F394" stroke-width="36">
+      <path d="M330 438V500H414V438M352 398V438M392 398V438M372 500V558C372 598 404 630 444 630H474" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M594 382L494 536H582L544 652L708 478H612L666 382Z" stroke="none"/>
+    </g>
+    <g fill="none" stroke="#36F493" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M330 438V500H414V438M352 398V438M392 398V438M372 500V558C372 598 404 630 444 630H474"/>
+    </g>
+    <path d="M594 382L494 536H582L544 652L708 478H612L666 382Z" fill="#36F493"/>
+  </g>
+</svg>

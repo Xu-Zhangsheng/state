@@ -1,0 +1,10 @@
+{
+  "id":"app.stasis.example.metric-provider","version":"0.1.0","protocolVersion":"1.0",
+  "minHostVersion":"1.0.0-beta.1","minOSVersion":"14.8","architectures":["arm64"],
+  "roles":["data"],"entrypoint":"Worker",
+  "provides":[{"id":"example.metrics","version":"1.0","fields":["example.value"],"minimumInterval":0.5,"maximumInterval":60}],"requires":[],"permissions":[],
+  "uiCapabilities":["native.settings.v1"],"author":"Stasis Project","license":"GPL-3.0",
+  "settingsVersion":1,"displayName":"Example Metric Provider",
+  "summary":"Publishes a demand-driven example metric.","systemImage":"waveform.path.ecg",
+  "settingsAreas":["general"]
+}

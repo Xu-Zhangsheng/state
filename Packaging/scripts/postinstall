@@ -1,0 +1,22 @@
+#!/bin/zsh
+
+set -eu
+
+label="com.srimanachanta.stasis.charging-helper.legacy"
+plist="/Library/LaunchDaemons/${label}.plist"
+helper="/Library/PrivilegedHelperTools/com.srimanachanta.stasis.charging-helper"
+frameworks="/Library/Stasis"
+
+/usr/bin/pkill -x stasis >/dev/null 2>&1 || true
+/bin/launchctl bootout "system/${label}" >/dev/null 2>&1 || true
+
+/usr/sbin/chown root:wheel "$plist" "$helper"
+/bin/chmod 0644 "$plist"
+/bin/chmod 0755 "$helper"
+/usr/sbin/chown -R root:wheel "$frameworks"
+/bin/chmod -R go-w "$frameworks"
+
+/bin/launchctl bootstrap system "$plist"
+/bin/launchctl enable "system/${label}"
+
+exit 0

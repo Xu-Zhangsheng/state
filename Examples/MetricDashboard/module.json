@@ -1,0 +1,10 @@
+{
+  "id":"app.stasis.example.metric-dashboard","version":"0.1.0","protocolVersion":"1.0",
+  "minHostVersion":"1.0.0-beta.1","minOSVersion":"14.8","architectures":["arm64"],
+  "roles":["presentation","business"],"entrypoint":"Worker","provides":[],
+  "requires":[{"serviceID":"example.metrics","version":"1.0","optional":false}],
+  "permissions":[],"uiCapabilities":["native.rows.v1","native.settings.v1"],
+  "author":"Stasis Project","license":"GPL-3.0","settingsVersion":1,
+  "displayName":"module.name","summary":"module.summary",
+  "systemImage":"gauge.with.dots.needle.33percent","settingsAreas":["general","panel"]
+}

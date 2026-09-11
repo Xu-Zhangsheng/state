@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="tile" x1="150" y1="100" x2="870" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9FFF3"/>
+    </linearGradient>
+    <linearGradient id="smoke" x1="222" y1="304" x2="808" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263832" stop-opacity="0.82"/>
+      <stop offset="0.46" stop-color="#07130F" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#193F31" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="198" y1="282" x2="836" y2="752" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.92"/>
+      <stop offset="0.28" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="0.72" stop-color="#0A281D" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.58"/>
+    </linearGradient>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="36"/></filter>
+    <filter id="glassDepth" x="-25%" y="-40%" width="150%" height="190%">
+      <feDropShadow dx="0" dy="30" stdDeviation="28" flood-color="#0A4329" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="-8" stdDeviation="9" flood-color="#FFFFFF" flood-opacity="0.74"/>
+    </filter>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="14"/></filter>
+    <clipPath id="shape"><rect x="40" y="40" width="944" height="944" rx="226"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#shape)">
+    <rect x="40" y="40" width="944" height="944" rx="226" fill="url(#tile)"/>
+    <circle cx="318" cy="354" r="210" fill="#5DFFA0" fill-opacity="0.72" filter="url(#blur)"/>
+    <circle cx="756" cy="658" r="230" fill="#06B661" fill-opacity="0.54" filter="url(#blur)"/>
+
+    <g filter="url(#glassDepth)">
+      <rect x="154" y="306" width="674" height="412" rx="150" fill="url(#smoke)" stroke="url(#rim)" stroke-width="18"/>
+      <path d="M828 420H866C894 420 916 442 916 470V554C916 582 894 604 866 604H828" fill="#101F1A" fill-opacity="0.68" stroke="url(#rim)" stroke-width="18"/>
+      <rect x="181" y="333" width="620" height="358" rx="124" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="5"/>
+      <path d="M226 376C366 310 618 320 756 398" fill="none" stroke="#FFFFFF" stroke-opacity="0.66" stroke-width="15" stroke-linecap="round"/>
+      <ellipse cx="630" cy="646" rx="136" ry="42" fill="#000000" fill-opacity="0.22" filter="url(#blur)"/>
+    </g>
+
+    <g fill="none" stroke="#43F58D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M298 478V548C298 584 327 613 363 613H404" opacity="0.42" filter="url(#glow)"/>
+      <path d="M298 478V548C298 584 327 613 363 613H404"/>
+      <path d="M264 456H332V520H264Z"/>
+      <path d="M282 422V456M314 422V456"/>
+    </g>
+    <path d="M514 384L434 520H522L486 620L644 468H552L588 384Z" fill="#43F58D" opacity="0.52" filter="url(#glow)"/>
+    <path d="M514 384L434 520H522L486 620L644 468H552L588 384Z" fill="#43F58D"/>
+
+    <rect x="42" y="42" width="940" height="940" rx="224" fill="none" stroke="#D4F4E1" stroke-width="4"/>
+  </g>
+</svg>

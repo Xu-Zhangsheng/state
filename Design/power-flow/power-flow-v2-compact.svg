@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320">
+  <rect width="760" height="320" rx="26" fill="#1c1c1e"/>
+  <rect x="18" y="18" width="724" height="284" rx="24" fill="#202023" stroke="#55565a" stroke-width="1"/>
+
+  <!-- compact horizontal 0.2.2-inspired flow -->
+  <path d="M150 144 C192 144 200 144 242 144 L242 176 C200 176 192 176 150 176Z" fill="#d8d8dc" opacity=".22"/>
+  <path d="M362 160 C410 160 430 76 490 76 L490 101 C431 101 410 178 362 184Z" fill="#d8d8dc" opacity=".18"/>
+  <path d="M362 160 C428 160 434 137 490 137 L490 162 C435 162 426 176 362 184Z" fill="#d8d8dc" opacity=".14"/>
+  <path d="M362 160 C430 160 434 198 490 198 L490 223 C432 223 425 182 362 184Z" fill="#d8d8dc" opacity=".22"/>
+
+  <!-- source -->
+  <rect x="48" y="82" width="102" height="156" rx="30" fill="#252528" stroke="#6b6c70" stroke-width="1.5"/>
+  <g fill="none" stroke="#b8b8bd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 126v-17m-10 0h20m-14 17v-9m8 9v-9"/>
+    <path d="M84 126c0 8 14 8 14 0"/>
+  </g>
+  <text x="99" y="201" fill="#f2f2f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" text-anchor="middle">7.1 W</text>
+
+  <!-- laptop only; no empty battery node -->
+  <rect x="242" y="82" width="120" height="156" rx="30" fill="#27272a" stroke="#6b6c70" stroke-width="1.5"/>
+  <g fill="none" stroke="#b8b8bd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="278" y="126" width="48" height="32" rx="3"/>
+    <path d="M270 165h64m-53-7-5 7m48-7 5 7"/>
+  </g>
+  <text x="302" y="204" fill="#f2f2f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="600" text-anchor="middle">7.1 W</text>
+
+  <!-- branch chips: icon + number only -->
+  <g fill="#29292c" stroke="#6b6c70" stroke-width="1.5">
+    <rect x="490" y="56" width="168" height="46" rx="16"/>
+    <rect x="490" y="126" width="168" height="46" rx="16"/>
+    <rect x="490" y="196" width="168" height="46" rx="16"/>
+  </g>
+  <g fill="none" stroke="#b8b8bd" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="513" y="70" width="20" height="14" rx="2"/><path d="M508 88h30"/>
+    <rect x="512" y="139" width="21" height="21" rx="3"/><path d="M517 135v-4m6 4v-4m-6 32v4m6-4v4m-15-14h-4m25 0h4"/>
+    <circle cx="515" cy="219" r="2" fill="#b8b8bd" stroke="none"/><circle cx="523" cy="219" r="2" fill="#b8b8bd" stroke="none"/><circle cx="531" cy="219" r="2" fill="#b8b8bd" stroke="none"/>
+  </g>
+  <g fill="#f2f2f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600">
+    <text x="605" y="86" text-anchor="middle">2.5 W</text>
+    <text x="605" y="156" text-anchor="middle">0.5 W</text>
+    <text x="605" y="226" text-anchor="middle">4.1 W</text>
+  </g>
+</svg>

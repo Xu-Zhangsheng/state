@@ -1,0 +1,7 @@
+{
+  "panel":[{
+    "id":"metric-value","kind":"infoRow","title":"metric.title","systemImage":"gauge.with.dots.needle.33percent",
+    "value":"—","binding":"metricValue","actionID":null,"children":[]
+  }],
+  "menuBar":[]
+}

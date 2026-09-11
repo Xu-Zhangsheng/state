@@ -1,0 +1,5193 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "About" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "关于" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "關於" } }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Version" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "版本" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "版本" } }
+      }
+    },
+    "Battery Status" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Battery Status" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "电池状态" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "電池狀態" } }
+      }
+    },
+    "Charging Controls" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Charging Controls" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "充电控制" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "充電控制" } }
+      }
+    },
+    "Drag modules or their items to change their position in the menu." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Drag modules or their items to change their position in the menu." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "拖动模块或其中的项目，以更改它们在菜单中的位置。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "拖動模組或其中的項目，以更改它們在選單中的位置。" } }
+      }
+    },
+    "Drag to reorder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Drag to reorder" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "拖动以排序" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "拖動以排序" } }
+      }
+    },
+    "Energy Apps" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Energy Apps" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "能耗应用" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "能耗 App" } }
+      }
+    },
+    "Menu Layout" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Menu Layout" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "菜单布局" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "選單佈局" } }
+      }
+    },
+    "Menu Preview" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Menu Preview" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "菜单预览" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "選單預覽" } }
+      }
+    },
+    "Power Monitoring" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Power Monitoring" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "功率监控" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "功率監控" } }
+      }
+    },
+    "The preview updates immediately as you reorder or hide items." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The preview updates immediately as you reorder or hide items." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "拖动排序或隐藏项目后，预览会立即更新。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "拖動排序或隱藏項目後，預覽會立即更新。" } }
+      }
+    },
+    "Choose how many applications appear when the menu is open." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose how many applications appear when the menu is open." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "选择打开菜单时显示的应用数量。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "選擇開啟選單時顯示的 App 數量。" } }
+      }
+    },
+    "Power flow level" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Power flow level" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "功率流层级" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "功率流層級" } }
+      }
+    },
+    "Power flow preview" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Power flow preview" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "功率流预览" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "功率流預覽" } }
+      }
+    },
+    "Preview" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Preview" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "预览" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "預覽" } }
+      }
+    },
+    "Second-level display" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Second-level display" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "二级显示" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "二級顯示" } }
+      }
+    },
+    "Third-level display" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Third-level display" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "三级显示" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "三級顯示" } }
+      }
+    },
+    "%lld%%" : {
+      "shouldTranslate" : false
+    },
+    "%lld°C" : {
+      "shouldTranslate" : false
+    },
+    "A guided full-charge and discharge cycle helps the macOS fuel gauge refresh its reading." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "A guided full-charge and discharge cycle helps the macOS fuel gauge refresh its reading." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "通过引导完成一次完整充放电循环，帮助 macOS 电池计量器刷新读数。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "透過引導完成一次完整充放電循環，幫助 macOS 電池計量器重新整理讀數。" } }
+      }
+    },
+    "Battery Calibration" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Battery Calibration" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "电池校准" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "電池校準" } }
+      }
+    },
+    "Calibration complete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Calibration complete" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "校准完成" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "校準完成" } }
+      }
+    },
+    "Charging control is unavailable. Install and authorize the state helper first." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Charging control is unavailable. Install and authorize the state helper first." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "充电控制不可用。请先安装并授权 state 助手。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "充電控制無法使用。請先安裝並授權 state 助手。" } }
+      }
+    },
+    "Cancel Calibration" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel Calibration" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "取消校准" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "取消校準" } }
+      }
+    },
+    "Charge to 100%" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Charge to 100%" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "充电至 100%" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "充電至 100%" } }
+      }
+    },
+    "Connect the adapter to begin the final charge." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Connect the adapter to begin the final charge." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "连接电源适配器，开始最后一次充电。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "連接電源轉接器，開始最後一次充電。" } }
+      }
+    },
+    "Connect the power adapter before starting." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Connect the power adapter before starting." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "开始前请连接电源适配器。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "開始前請連接電源轉接器。" } }
+      }
+    },
+    "Connect the power adapter before starting battery calibration." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Connect the power adapter before starting battery calibration." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "开始电池校准前请连接电源适配器。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "開始電池校準前請連接電源轉接器。" } }
+      }
+    },
+    "Discharge to 10%" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Discharge to 10%" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "放电至 10%" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "放電至 10%" } }
+      }
+    },
+    "Keep the adapter connected until the battery reaches 100%." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Keep the adapter connected until the battery reaches 100%." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "请保持连接电源适配器，直到电池达到 100%。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "請保持連接電源轉接器，直到電池達到 100%。" } }
+      }
+    },
+    "Ready to calibrate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ready to calibrate" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "准备校准" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "準備校準" } }
+      }
+    },
+    "Recharge to 100%" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Recharge to 100%" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "重新充电至 100%" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "重新充電至 100%" } }
+      }
+    },
+    "Start Battery Calibration" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Start Battery Calibration" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "开始电池校准" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "開始電池校準" } }
+      }
+    },
+    "Start Calibration Again" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Start Calibration Again" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "再次开始校准" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "再次開始校準" } }
+      }
+    },
+    "The calibration cycle is complete and your previous settings were restored." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The calibration cycle is complete and your previous settings were restored." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "校准循环已完成，之前的设置已恢复。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "校準循環已完成，之前的設定已恢復。" } }
+      }
+    },
+    "Unplug the adapter and use your Mac until the battery reaches 10%." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unplug the adapter and use your Mac until the battery reaches 10%." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "拔下电源适配器，使用 Mac 直到电池降至 10%。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "拔下電源轉接器，使用 Mac 直到電池降至 10%。" } }
+      }
+    },
+    "Use your Mac until the battery reaches 10%." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Use your Mac until the battery reaches 10%." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "使用 Mac 直到电池降至 10%。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "使用 Mac 直到電池降至 10%。" } }
+      }
+    },
+    "Adapter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapter"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapter"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adaptador"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adaptador"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アダプタ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ tiếp hợp"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電源轉接器"
+          }
+        }
+      }
+    },
+    "Adapter control is not supported on this device." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Adaptersteuerung wird auf diesem Gerät nicht unterstützt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapter control is not supported on this device."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El control del adaptador no es compatible con este dispositivo."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El control del adaptador no es compatible con este dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このデバイスではアダプタの制御はサポートされていません。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quản lý bộ tiếp hợp không được hỗ trợ trên thiết bị này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这台设备不支持充电器控制。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這台設備不支持電源轉接器控制。"
+          }
+        }
+      }
+    },
+    "Adapter Power" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapter Power"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配器功率"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轉接器功率"
+          }
+        }
+      }
+    },
+    "Adapter Power Metrics" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapter-Leistungswerte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapter Power Metrics"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Métricas de energía del adaptador"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Métricas de energía del adaptador"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アダプタ電力"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông số bộ tiếp hợp nguồn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电器功率指标"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電源轉接器功率指標"
+          }
+        }
+      }
+    },
+    "Advanced" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erweitert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advanced"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanzado"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanzado"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "詳細"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nâng cao"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高级设置"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高級設定"
+          }
+        }
+      }
+    },
+    "Approve state in System Settings → Login Items to continue." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Approve state in System Settings → Login Items to continue."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cho phép state trong Cài đặt hệ thống → Mục đăng nhập để tiếp tục."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在“系统设置 → 登录项”中允许 state 后继续。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請在“系統設定 → 登錄項”中允許 state 後繼續。"
+          }
+        }
+      }
+    },
+    "Automatic discharge" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatische Entladung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic discharge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descarga automática"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descarga automática"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動放電"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự động xả pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动放电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動放電"
+          }
+        }
+      }
+    },
+    "Automatically resume charging when the battery drops below the threshold relative to your charge limit." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatically resume charging when the battery drops below the threshold relative to your charge limit."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự động sạc lại khi pin giảm xuống dưới ngưỡng giới hạn sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当电池电量低于相对于充电上限设定的阈值时，自动恢复充电。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當電池電量低於相對於充電上限設定的閾值時，自動恢復充電。"
+          }
+        }
+      }
+    },
+    "Battery" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batterie"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batería"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batería"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池"
+          }
+        }
+      }
+    },
+    "Battery & Power Adapter" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery & Power Adapter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池与电源适配器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池與電源轉接器"
+          }
+        }
+      }
+    },
+    "Battery Health" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batteriezustand"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Health"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salud de la batería"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salud de la batería"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーの状態"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sức khỏe Pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池健康"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池健康"
+          }
+        }
+      }
+    },
+    "Battery mode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batteriemodus"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery mode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo de batería"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo de batería"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーモード"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chế độ Pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池模式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池模式"
+          }
+        }
+      }
+    },
+    "Battery Mode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batteriemodus"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Mode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo de batería"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo de batería"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーモード"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chế độ pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池模式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池模式"
+          }
+        }
+      }
+    },
+    "Battery Power" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Power"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池功率"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池功率"
+          }
+        }
+      }
+    },
+    "Battery Power Metrics" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batterie-Leistungswerte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Power Metrics"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Métricas de energía de la batería"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Métricas de energía de la batería"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー電力"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông số nguồn Pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池功率指标"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池功率指標"
+          }
+        }
+      }
+    },
+    "Battery Reading" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batteriemessung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Reading"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lectura de batería"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lectura de batería"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー測定値"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dữ liệu Pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池测量值"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池測量值"
+          }
+        }
+      }
+    },
+    "Battery Temperature" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batterietemperatur"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Temperature"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperatura de la batería"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperatura de la batería"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー温度"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ Pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池溫度"
+          }
+        }
+      }
+    },
+    "Blinking Orange Fast" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blinking Orange Fast"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhấp nháy cam nhanh"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橙色快速闪烁"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橙色快速閃爍"
+          }
+        }
+      }
+    },
+    "Blinking Orange Slow" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blinking Orange Slow"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhấp nháy cam chậm"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橙色缓慢闪烁"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橙色緩慢閃爍"
+          }
+        }
+      }
+    },
+    "Calculating…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculating…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "计算中…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計算中…"
+          }
+        }
+      }
+    },
+    "Charge limit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladelimit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge limit"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Límite de carga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Límite de carga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電上限"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giới hạn sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电上限"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電上限"
+          }
+        }
+      }
+    },
+    "Charge Limit Override" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge Limit Override"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ qua giới hạn sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "临时忽略充电上限"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "臨時忽略充電上限"
+          }
+        }
+      }
+    },
+    "Charge Management" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lademanagement"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge Management"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestión de carga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestión de carga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電管理"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quản lý sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电管理"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電管理"
+          }
+        }
+      }
+    },
+    "Charge management is not supported on this device." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Lademanagement wird auf diesem Gerät nicht unterstützt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge management is not supported on this device."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La gestión de carga no es compatible con este dispositivo."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La gestión de carga no es compatible con este dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このデバイスでは充電管理はサポートされていません。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quản lý sạc không được hỗ trợ trên thiết bị này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这台设备不支持充电管理。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這台設備不支持充電管理。"
+          }
+        }
+      }
+    },
+    "Charging" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电控制"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電控制"
+          }
+        }
+      }
+    },
+    "Charging control is not supported on this device." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Ladesteuerung wird auf diesem Gerät nicht unterstützt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging control is not supported on this device."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El control de carga no es compatible con este dispositivo."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El control de carga no es compatible con este dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このデバイスでは充電の制御はサポートされていません。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển sạc không được hỗ trợ trên thiết bị này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这台设备不支持充电控制。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這台設備不支持充電控制。"
+          }
+        }
+      }
+    },
+    "Charging helper is not installed" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging helper is not installed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电助手尚未安装"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電助手尚未安裝"
+          }
+        }
+      }
+    },
+    "Charging helper requires approval in System Settings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging helper requires approval in System Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要在系统设置中批准充电助手"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要在系統設定中批准充電助手"
+          }
+        }
+      }
+    },
+    "Charging Paused" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden pausiert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging Paused"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga pausada"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga pausada"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電を一時停止"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạm dừng sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电暂停中"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電暫停中"
+          }
+        }
+      }
+    },
+    "Charging Resumed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden fortgesetzt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging Resumed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga reanudada"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga reanudada"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電を再開"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复充电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復充電"
+          }
+        }
+      }
+    },
+    "Charging resumes at" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden wird fortgesetzt bei"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging resumes at"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La carga se reanuda en"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La carga se reanuda en"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電再開レベル"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục sạc khi đạt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复充电的数值"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復充電的數值"
+          }
+        }
+      }
+    },
+    "Charging status changed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladestatus geändert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging status changed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambio de estado de carga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambio de estado de carga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電状態の変更"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trạng thái sạc đã thay đổi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电状态变更"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電狀態變更"
+          }
+        }
+      }
+    },
+    "Check Again" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut prüfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check Again"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verificar de nuevo"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verificar de nuevo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再確認"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiểm tra lại"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再次确认"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再次確認"
+          }
+        }
+      }
+    },
+    "Choose what appears in the menu and drag rows to change their order." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose what appears in the menu and drag rows to change their order."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择菜单中显示的项目，并拖动行来调整顺序。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇選單中顯示的項目，並拖動行來調整順序。"
+          }
+        }
+      }
+    },
+    "Compact Cards" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compact Cards"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紧凑卡片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "緊湊卡片"
+          }
+        }
+      }
+    },
+    "Control when state sends you notifications." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steuere, wann state dir Benachrichtigungen sendet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control when state sends you notifications."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controla cuándo state te envía notificaciones."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controla cuándo state te envía notificaciones."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "stateが通知を送信するタイミングを制御します。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quản lý thông báo từ state"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "控制state何时发送通知"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "控制state何時發送通知"
+          }
+        }
+      }
+    },
+    "Cycle count" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladezyklen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cycle count"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciclos de carga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciclos de carga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充放電回数"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số chu kỳ sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充放电次数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充放電次數"
+          }
+        }
+      }
+    },
+    "Cycle Count" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladezyklen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cycle Count"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciclos de carga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciclos de carga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充放電回数"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số chu kỳ sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充放电次数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充放電次數"
+          }
+        }
+      }
+    },
+    "Dashboard" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersicht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dashboard"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panel"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダッシュボード"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tổng quan"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "界面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "介面"
+          }
+        }
+      }
+    },
+    "Disable all notifications" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Benachrichtigungen deaktivieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disable all notifications"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desactivar todas las notificaciones"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desactivar todas las notificaciones"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべての通知を無効にする"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tắt tất cả thông báo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "禁止所有通知"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "禁止所有通知"
+          }
+        }
+      }
+    },
+    "Disable sleep until charge limit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disable sleep until charge limit"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không ngủ cho đến khi đạt giới hạn sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在达到充电上限前禁止睡眠"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在達到充電上限前禁止睡眠"
+          }
+        }
+      }
+    },
+    "Discharge" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entladung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discharge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descarga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descarga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放電"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xả pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放電"
+          }
+        }
+      }
+    },
+    "Discharge the battery to your charge limit when plugged in above the target level." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discharge the battery to your charge limit when plugged in above the target level."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xả pin về mức giới hạn khi cắm sạc nếu pin hiện tại cao hơn mức mục tiêu."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当插电且电量高于目标值时，将电池放电至充电上限。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當插電且電量高於目標值時，將電池放電至充電上限。"
+          }
+        }
+      }
+    },
+    "Discharging" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discharging"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放电中"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放電中"
+          }
+        }
+      }
+    },
+    "Display battery percentage next to the menu bar icon. Status colors indicate charging, low battery, and Low Power Mode." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display battery percentage next to the menu bar icon. Status colors indicate charging, low battery, and Low Power Mode."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị phần trăm pin bên cạnh biểu tượng thanh menu. Màu trạng thái biểu thị đang sạc, pin yếu và Chế độ nguồn điện thấp."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单栏图标旁显示电池百分比。状态颜色用于指示充电、低电量和低电量模式。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在選單列圖標旁顯示電池百分比。狀態顏色用於指示充電、低電量和低耗電模式。"
+          }
+        }
+      }
+    },
+    "Enable heat protection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitzeschutz aktivieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable heat protection"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activar protección térmica"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activar protección térmica"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熱保護を有効にする"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật bảo vệ quá nhiệt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用过热保护"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "啓用過熱保護"
+          }
+        }
+      }
+    },
+    "Enable sailing mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable sailing mode"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật chế độ thả trôi pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用巡航模式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "啓用巡航模式"
+          }
+        }
+      }
+    },
+    "Failed to install charging helper" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladehelfer konnte nicht installiert werden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to install charging helper"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al instalar el asistente de carga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al instalar el asistente de carga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電ヘルパーのインストールに失敗しました"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể cài đặt công cụ hỗ trợ sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电助手安装失败"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電助手安裝失敗"
+          }
+        }
+      }
+    },
+    "Force Discharge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Force Discharge"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ép xả pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强制放电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強制放電"
+          }
+        }
+      }
+    },
+    "Follow System" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow System"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跟随系统"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跟隨系統"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allgemein"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chung"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通用"
+          }
+        }
+      }
+    },
+    "General system and battery status information shown in the menu dropdown." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allgemeine System- und Batterieinformationen im Dropdown-Menü."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General system and battery status information shown in the menu dropdown."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información general del sistema y estado de la batería en el menú desplegable."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información general del sistema y estado de la batería en el menú desplegable."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メニューに表示されるシステムとバッテリーの状態情報。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị thông tin tổng quan về hệ thống và trạng thái pin trong menu thả xuống."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单列表中显示的一般系统和电池状态信息。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在選單列表中顯示的一般系統和電池狀態資訊。"
+          }
+        }
+      }
+    },
+    "Green" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grün"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Green"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verde"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verde"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "緑"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xanh lá"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "绿色"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "綠色"
+          }
+        }
+      }
+    },
+    "Health" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zustand"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Health"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salud"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salud"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状態"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tình trạng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "健康"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "健康"
+          }
+        }
+      }
+    },
+    "Heat Protection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitzeschutz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heat Protection"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protección térmica"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protección térmica"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熱保護"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bảo vệ quá nhiệt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "过热保护"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "過熱保護"
+          }
+        }
+      }
+    },
+    "Hidden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hidden"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ẩn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隱藏"
+          }
+        }
+      }
+    },
+    "High Energy Apps" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Energy Apps"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高能耗 App"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高耗能 App"
+          }
+        }
+      }
+    },
+    "High energy apps shown" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High energy apps shown"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示高能耗 App 数量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示高耗能 App 數量"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "语言"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "語言"
+          }
+        }
+      }
+    },
+    "Launch at login" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei Anmeldung starten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch at login"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar al arrancar"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar al arrancar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン時に起動"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khởi động cùng hệ thống"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开机自启"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開機時自動啟動"
+          }
+        }
+      }
+    },
+    "LED during heat protection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LED bei Hitzeschutz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LED during heat protection"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LED durante protección térmica"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LED durante protección térmica"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熱保護中のLED"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đèn LED khi pin quá nhiệt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "过热保护时的LED状态"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "過熱保護時的LED狀態"
+          }
+        }
+      }
+    },
+    "Limit the maximum charge level to extend battery lifespan." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den maximalen Ladestand begrenzen, um die Lebensdauer der Batterie zu verlängern."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limit the maximum charge level to extend battery lifespan."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limitar el nivel máximo de carga para extender la vida útil de la batería."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limitar el nivel máximo de carga para extender la vida útil de la batería."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー寿命を延ばすために最大充電レベルを制限します。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giới hạn mức sạc tối đa để kéo dài tuổi thọ pin."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "为了延长电池寿命限制充电上限"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為了延長電池壽命限制充電上限"
+          }
+        }
+      }
+    },
+    "Low Power Mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Power Mode"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低电量模式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低耗電模式"
+          }
+        }
+      }
+    },
+    "MagSafe LED Control" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe-LED-Steuerung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe LED Control"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control del LED MagSafe"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control del LED MagSafe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe LEDの制御"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển đèn MagSafe"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe LED 的控制"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe LED 的控制"
+          }
+        }
+      }
+    },
+    "MagSafe LED control is not supported on this device." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die MagSafe-LED-Steuerung wird auf diesem Gerät nicht unterstützt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe LED control is not supported on this device."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El control del LED MagSafe no es compatible con este dispositivo."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El control del LED MagSafe no es compatible con este dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このデバイスではMagSafe LEDの制御はサポートされていません。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển đèn MagSafe không được hỗ trợ trên thiết bị này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这台设备不支持MagSafe LED控制"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這台設備不支持MagSafe LED控制"
+          }
+        }
+      }
+    },
+    "Manage charging" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden verwalten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage charging"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestionar carga"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestionar carga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電を管理"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quản lý sạc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电管理"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電管理"
+          }
+        }
+      }
+    },
+    "Manage MagSafe LED" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe-LED verwalten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage MagSafe LED"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestionar LED MagSafe"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestionar LED MagSafe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe LEDを管理"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quản lý đèn MagSafe"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe LED 管理"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe LED 管理"
+          }
+        }
+      }
+    },
+    "Menu Bar Icon" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menüleistensymbol"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu Bar Icon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ícono de la barra de menú"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ícono de la barra de menú"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メニューバーアイコン"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biểu tượng menu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏图标"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選單列圖標"
+          }
+        }
+      }
+    },
+    "Menu Items" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu Items"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单项目"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選單項目"
+          }
+        }
+      }
+    },
+    "Native List" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Native List"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原生列表"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原生列表"
+          }
+        }
+      }
+    },
+    "Next to icon" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next to icon"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bên cạnh biểu tượng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "图标旁"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圖標旁"
+          }
+        }
+      }
+    },
+    "No apps with significant energy impact" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No apps with significant energy impact"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有明显耗能的 App"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有明顯耗能的 App"
+          }
+        }
+      }
+    },
+    "Not Charging" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Charging"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未充电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未充電"
+          }
+        }
+      }
+    },
+    "Notifications" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông báo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
+        }
+      }
+    },
+    "Off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagado"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagado"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オフ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tắt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
+          }
+        }
+      }
+    },
+    "Ok" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng ý"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Orange" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orange"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orange"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naranja"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naranja"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オレンジ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cam"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橙色"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橙色"
+          }
+        }
+      }
+    },
+    "CPU" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CPU"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CPU"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CPU"
+          }
+        }
+      }
+    },
+    "Display" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示器"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他"
+          }
+        }
+      }
+    },
+    "Pause charging when the battery temperature exceeds the threshold." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden pausieren, wenn die Batterietemperatur den Grenzwert überschreitet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause charging when the battery temperature exceeds the threshold."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar la carga cuando la temperatura de la batería supere el umbral."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar la carga cuando la temperatura de la batería supere el umbral."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー温度がしきい値を超えた場合に充電を一時停止します。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạm dừng sạc khi nhiệt độ pin vượt quá ngưỡng quy định."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当电池温度超过临界点时暂定充电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當電池溫度超過臨界點時暫定充電"
+          }
+        }
+      }
+    },
+    "Plugged In (Not Charging)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plugged In (Not Charging)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已接入电源（未充电）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已接入電源（未充電）"
+          }
+        }
+      }
+    },
+    "Power" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leistung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energía"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energía"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電力"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nguồn điện"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电力"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電力"
+          }
+        }
+      }
+    },
+    "Power Adapter" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power Adapter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电源适配器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電源轉接器"
+          }
+        }
+      }
+    },
+    "Power Distribution" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power Distribution"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率分布"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率分布"
+          }
+        }
+      }
+    },
+    "Power distribution diagram" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leistungsverteilungsdiagramm"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power distribution diagram"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagrama de distribución de energía"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagrama de distribución de energía"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電力分配図"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sơ đồ phân phối nguồn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电力分配图"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電力分配圖"
+          }
+        }
+      }
+    },
+    "Power Flow" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power Flow"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率流"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率流"
+          }
+        }
+      }
+    },
+    "Power presentation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power presentation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率展示方式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率展示方式"
+          }
+        }
+      }
+    },
+    "Power source" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stromquelle"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power source"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuente de energía"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuente de energía"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電源"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nguồn điện"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电源"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電源"
+          }
+        }
+      }
+    },
+    "Power Source" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stromquelle"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power Source"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuente de energía"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuente de energía"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電源"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nguồn điện"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电源"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電源"
+          }
+        }
+      }
+    },
+    "Power values are displayed with one decimal place. The app list is supplied by the energy metrics service." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power values are displayed with one decimal place. The app list is supplied by the energy metrics service."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率精确显示到小数点后一位；App 列表由能耗指标服务提供。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率精確顯示到小數點後一位；App 列表由能耗指標服務提供。"
+          }
+        }
+      }
+    },
+    "Prevent your Mac from sleeping while charging towards the charge limit. Sleep is re-enabled once the limit is reached or the adapter is disconnected." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prevent your Mac from sleeping while charging towards the charge limit. Sleep is re-enabled once the limit is reached or the adapter is disconnected."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngăn máy Mac chuyển sang chế độ ngủ khi đang sạc đến mức giới hạn. Chế độ ngủ sẽ tự động kích hoạt lại khi đạt mức giới hạn hoặc khi ngắt kết nối bộ sạc."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在向充电上限充电期间阻止 Mac 进入睡眠。达到上限或断开充电器后，睡眠会重新启用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在向充電上限充電期間阻止 Mac 進入睡眠。達到上限或斷開電源轉接器後，睡眠會重新啓用。"
+          }
+        }
+      }
+    },
+    "Quit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salir"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salir"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終了"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thoát"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出应用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出應用程式"
+          }
+        }
+      }
+    },
+    "Restore Default Layout" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore Default Layout"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复默认布局"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復預設佈局"
+          }
+        }
+      }
+    },
+    "Sailing Mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sailing Mode"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chế độ thả trôi pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "巡航模式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "巡航模式"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        }
+      }
+    },
+    "Show battery state" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show battery state"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị trạng thái pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示电池状态"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示電池狀態"
+          }
+        }
+      }
+    },
+    "Show percentage" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show percentage"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị phần trăm pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示电池百分比"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示電池百分比"
+          }
+        }
+      }
+    },
+    "Sleep Prevention" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep Prevention"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngăn chế độ ngủ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "防止睡眠"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "防止睡眠"
+          }
+        }
+      }
+    },
+    "Startup" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Systemstart"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startup"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicio"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "起動"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khởi động"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启动"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "啓動"
+          }
+        }
+      }
+    },
+    "state Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "state-Einstellungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "state Settings"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes de state"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes de state"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "stateの設定"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt state"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "state 设置"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "state 設定"
+          }
+        }
+      }
+    },
+    "Status" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ステータス"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trạng thái"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状态"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "狀態"
+          }
+        }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系統"
+          }
+        }
+      }
+    },
+    "Temperature" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperatur"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperature"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperatura"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperatura"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "温度"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫度"
+          }
+        }
+      }
+    },
+    "Temperature limit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperaturgrenzwert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperature limit"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Límite de temperatura"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Límite de temperatura"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "温度制限"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giới hạn nhiệt độ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "温度限制"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫度限制"
+          }
+        }
+      }
+    },
+    "Threshold below limit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Threshold below limit"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngưỡng dưới giới hạn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低于上限的阈值"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低於上限的閾值"
+          }
+        }
+      }
+    },
+    "Time Remaining" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbleibende Zeit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time Remaining"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo restante"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo restante"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残り時間"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian còn lại"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剩余时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剩餘時間"
+          }
+        }
+      }
+    },
+    "Time until discharge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time until discharge"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian dự kiến xả pin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预计放电时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預計放電時間"
+          }
+        }
+      }
+    },
+    "Charging control is unavailable. Reinstall state with the installer if this continues." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging control is unavailable. Reinstall state with the installer if this continues."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电控制不可用。如果问题持续，请使用安装器重新安装 state。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電控制不可用。如果問題持續，請使用安裝器重新安裝 state。"
+          }
+        }
+      }
+    },
+    "The charging helper is not installed. Reinstall state using the installer package." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The charging helper is not installed. Reinstall state using the installer package."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电后台服务尚未安装，请使用安装器重新安装 state。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電背景服務尚未安裝，請使用安裝器重新安裝 state。"
+          }
+        }
+      }
+    },
+    "Unable to change Low Power Mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to change Low Power Mode"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法更改低电量模式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法更改低耗電模式"
+          }
+        }
+      }
+    },
+    "Uptime" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laufzeit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uptime"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo activo"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo activo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "稼働時間"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian hoạt động"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开机时长"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開機時長"
+          }
+        }
+      }
+    },
+    "Use hardware percentage" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use hardware percentage"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng phần trăm pin từ phần cứng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用硬件电量百分比"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用硬件電量百分比"
+          }
+        }
+      }
+    },
+    "Use the raw battery percentage instead of the macOS calibrated value." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the raw battery percentage instead of the macOS calibrated value."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sử dụng phần trăm pin thực tế từ phần cứng thay vì giá trị đã được hiệu chuẩn của macOS."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用原始电池百分比，而非 macOS 校准后的数值。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用原始電池百分比，而非 macOS 校准後的數值。"
+          }
+        }
+      }
+    },
+    "M2 Chip" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "M2 Chip" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "M2 芯片" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "M2 晶片" } }
+      }
+    },
+    "External Devices" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "External Devices" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "外接设备" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "外接裝置" } }
+      }
+    },
+    "M2 chip power" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "M2 chip power" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "M2 芯片功耗" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "M2 晶片功耗" } }
+      }
+    },
+    "Display power" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Display power" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "显示器功耗" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "顯示器功耗" } }
+      }
+    },
+    "Other system power" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Other system power" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "其他系统功耗" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "其他系統功耗" } }
+      }
+    },
+    "External device output" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "External device output" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "外接设备输出功耗" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "外接裝置輸出功耗" } }
+      }
+    },
+    "Only enabled power-flow branches are sampled and calculated while the menu is open." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Only enabled power-flow branches are sampled and calculated while the menu is open." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "仅在菜单打开时采样和计算已启用的功率流分支。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "僅在選單開啟時取樣和計算已啟用的功率流分支。" } }
+      }
+    },
+    "Application" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Application" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "应用" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "應用程式" } }
+      }
+    },
+    "Modules" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Modules" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "模块" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "模組" } }
+      }
+    },
+    "General Settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "General Settings" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "通用设置" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "一般設定" } }
+      }
+    },
+    "Panel Settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Panel Settings" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "面板设置" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "面板設定" } }
+      }
+    },
+    "Feature Settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Feature Settings" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "功能设置" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "功能設定" } }
+      }
+    },
+    "Layout & Preview" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Layout & Preview" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "布局与预览" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "佈局與預覽" } }
+      }
+    },
+    "Installed Modules" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Installed Modules" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "已安装模块" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "已安裝模組" } }
+      }
+    },
+    "Install Local Module…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Install Local Module…" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "安装本地模块…" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "安裝本機模組…" } }
+      }
+    },
+    "Official Catalog" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Official Catalog" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "官方模块目录" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "官方模組目錄" } }
+      }
+    },
+    "Check for Modules" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Check for Modules" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "检查模块" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "檢查模組" } }
+      }
+    },
+    "Panel Modules" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Panel Modules" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "面板模块" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "面板模組" } }
+      }
+    },
+    "Preview" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Preview" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "预览" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "預覽" } }
+      }
+    },
+    "Show module in panel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Show module in panel" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "在面板中显示模块" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "在面板中顯示模組" } }
+      }
+    },
+    "Module Options" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Module Options" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "模块选项" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "模組選項" } }
+      }
+    },
+    "Permissions" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Permissions" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "权限" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "權限" } }
+      }
+    },
+    "macOS Data Service" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "macOS Data Service" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "macOS 数据服务" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "macOS 資料服務" } }
+      }
+    },
+    "System Info" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "System Info" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "系统信息" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "系統資訊" } }
+      }
+    },
+    "Charging Control" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Charging Control" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "充电控制" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "充電控制" } }
+      }
+    },
+    "Energy Apps" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Energy Apps" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "高能耗应用" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "高耗能應用程式" } }
+      }
+    },
+    "Menu Bar Provider" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Menu Bar Provider" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "菜单栏提供者" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "選單列提供者" } }
+      }
+    },
+    "Menu Bar" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Menu Bar" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "菜单栏" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "選單列" } }
+      }
+    },
+    "Choose which module supplies the menu bar icon and text. state uses its app icon without collecting telemetry." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose which module supplies the menu bar icon and text. state uses its app icon without collecting telemetry." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "选择由哪个模块提供菜单栏图标和文字。选择 state 时仅显示应用图标，不采集遥测数据。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "選擇由哪個模組提供選單列圖示和文字。選擇 state 時僅顯示應用程式圖示，不收集遙測資料。" } }
+      }
+    },
+    "Live Preview" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Live Preview" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "实时预览" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "即時預覽" } }
+      }
+    },
+    "Visible modules may collect data while this preview is open." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Visible modules may collect data while this preview is open." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "打开实时预览后，可见模块可能会采集数据。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "開啟即時預覽後，可見模組可能會收集資料。" } }
+      }
+    },
+    "Static sample values are shown without starting module sampling." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Static sample values are shown without starting module sampling." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "显示静态示例值，不会启动模块采样。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "顯示靜態範例值，不會啟動模組取樣。" } }
+      }
+    },
+    "Service Providers" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Service Providers" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "服务提供者" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "服務提供者" } }
+      }
+    },
+    "No core capabilities requested" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No core capabilities requested" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "未请求核心能力" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "未要求核心能力" } }
+      }
+    },
+    "Available" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Available" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "可用" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "可用" } }
+      }
+    },
+    "Module disabled" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Module disabled" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "模块已停用" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "模組已停用" } }
+      }
+    },
+    "Shown" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Shown" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "显示" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "顯示" } }
+      }
+    },
+    "Drag modules to change panel order. Hidden display modules stop display-only sampling." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Drag modules to change panel order. Hidden display modules stop display-only sampling." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "拖动模块可调整面板顺序。隐藏展示模块后会停止仅供显示的采样。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "拖動模組可調整面板順序。隱藏展示模組後會停止僅供顯示的取樣。" } }
+      }
+    },
+    "Enabled modules may provide data or background behavior. Panel visibility is configured separately." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enabled modules may provide data or background behavior. Panel visibility is configured separately." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "已启用模块可以提供数据或后台功能；是否在面板显示需单独设置。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "已啟用模組可以提供資料或背景功能；是否在面板顯示需另行設定。" } }
+      }
+    },
+    "Packages are checked for protocol, architecture, unsafe paths and checksums before activation." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Packages are checked for protocol, architecture, unsafe paths and checksums before activation." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "模块激活前会检查协议、架构、不安全路径和校验和。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "模組啟用前會檢查協定、架構、不安全路徑和校驗碼。" } }
+      }
+    },
+    "The recommended suite is already included in this preview." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The recommended suite is already included in this preview." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "此预览版已包含推荐模块套装。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "此預覽版已包含建議模組套裝。" } }
+      }
+    },
+    "Tasks" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tasks" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "任务" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "任務" } }
+      }
+    },
+    "Running" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Running" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "进行中" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "進行中" } }
+      }
+    },
+    "Completed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Completed" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "已完成" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "已完成" } }
+      }
+    },
+    "Failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Failed" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "失败" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "失敗" } }
+      }
+    },
+    "Cancelled" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancelled" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "已取消" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "已取消" } }
+      }
+    },
+    "The module stopped before the task finished." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The module stopped before the task finished." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "模块在任务完成前已停止。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "模組在任務完成前已停止。" } }
+      }
+    },
+    "Disable Required Module?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Disable Required Module?" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "停用必要模块？" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "停用必要模組？" } }
+      }
+    },
+    "Disable Module" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Disable Module" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "停用模块" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "停用模組" } }
+      }
+    },
+    "These modules will stop until another compatible provider is selected: " : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "These modules will stop until another compatible provider is selected: " } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "以下模块将停止，直到选择另一个兼容的服务提供者：" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "以下模組將停止，直到選擇另一個相容的服務提供者：" } }
+      }
+    },
+    "Finish or cancel battery calibration before changing a required module." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Finish or cancel battery calibration before changing a required module." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "请先完成或取消电池校准，再更改必要模块。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "請先完成或取消電池校準，再變更必要模組。" } }
+      }
+    },
+    "Allow module notifications" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Allow module notifications" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "允许模块通知" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "允許模組通知" } }
+      }
+    },
+    "Choose How state Starts" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose How state Starts" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "选择 state 的启动方式" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "選擇 state 的啟動方式" } }
+      }
+    },
+    "Enable the recommended battery modules, or start with an empty core and enable modules later in Settings." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enable the recommended battery modules, or start with an empty core and enable modules later in Settings." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "可以启用推荐的电池模块，也可以从空白核心开始，之后再到设置中启用模块。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "可以啟用建議的電池模組，也可以從空白核心開始，之後再到設定中啟用模組。" } }
+      }
+    },
+    "Use Recommended Modules" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Use Recommended Modules" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "使用推荐模块" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "使用建議模組" } }
+      }
+    },
+    "Start with Empty Core" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Start with Empty Core" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "从空白核心开始" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "從空白核心開始" } }
+      }
+    },
+    "Could Not Save Permission" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Could Not Save Permission" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "无法保存权限" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法儲存權限" } }
+      }
+    },
+    "Could Not Save Setting" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Could Not Save Setting" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "无法保存设置" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法儲存設定" } }
+      }
+    },
+    "The module is no longer installed." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The module is no longer installed." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "该模块已不再安装。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "該模組已不再安裝。" } }
+      }
+    },
+    "The module rejected this setting." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The module rejected this setting." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "模块拒绝了这项设置。" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "模組拒絕了這項設定。" } }
+      }
+    },
+    "Visuals" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Darstellung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visuals"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visuales"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visuales"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表示"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trực quan dòng điện"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "视觉图"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視覺圖"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

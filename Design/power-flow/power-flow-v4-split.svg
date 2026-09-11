@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="640" viewBox="0 0 980 640">
+  <rect width="980" height="640" fill="#ffffff"/>
+
+  <!-- Solid Sankey body: rounded on the outside, square where it joins the flow. -->
+  <path d="M154 146 H300 V494 H154 A54 54 0 0 1 100 440 V200 A54 54 0 0 1 154 146Z"
+        fill="#f1f0f0" stroke="#707070" stroke-width="2"/>
+  <path d="M410 146 H600 V494 H410 Z"
+        fill="#f1f0f0" stroke="#707070" stroke-width="2"/>
+
+  <!-- Straight input trunk. -->
+  <path d="M300 168 H410 V472 H300 Z" fill="#cfcfcf"/>
+
+  <!-- Three shaped output ribbons. The white curves are intentional cut-ins. -->
+  <path d="M600 146 H727 V246 C681 246 646 237 600 221 Z" fill="#cfcfcf"/>
+  <path d="M600 221 C650 235 680 286 727 286 V386 C680 386 646 312 600 304 Z" fill="#cfcfcf"/>
+  <path d="M600 304 C650 321 682 428 727 428 V528 C680 528 646 392 600 387 Z" fill="#cfcfcf"/>
+
+  <!-- Right endpoint nodes: square left edge, rounded right edge. -->
+  <path d="M727 146 H828 A45 45 0 0 1 873 191 V201 A45 45 0 0 1 828 246 H727 Z"
+        fill="#f1f0f0" stroke="#707070" stroke-width="2"/>
+  <path d="M727 286 H828 A45 45 0 0 1 873 331 V341 A45 45 0 0 1 828 386 H727 Z"
+        fill="#f1f0f0" stroke="#707070" stroke-width="2"/>
+  <path d="M727 428 H828 A45 45 0 0 1 873 473 V483 A45 45 0 0 1 828 528 H727 Z"
+        fill="#f1f0f0" stroke="#707070" stroke-width="2"/>
+
+  <!-- Minimal monochrome SF-Symbol-like glyphs. -->
+  <g fill="none" stroke="#777777" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M194 282v-24m-14 0h28m-19 24v-14m12 14v-14"/>
+    <path d="M184 282c0 11 20 11 20 0"/>
+    <rect x="469" y="264" width="54" height="37" rx="3"/>
+    <path d="M459 312h74m-61-11-6 11m55-11 6 11"/>
+
+    <rect x="761" y="175" width="28" height="21" rx="3"/><path d="M756 201h38"/>
+    <rect x="761" y="315" width="27" height="27" rx="4"/><path d="M768 310v-6m7 6v-6m7 6v-6m-14 38v6m7-6v6m7-6v6m-20-20h-6m33 0h6"/>
+    <circle cx="762" cy="466" r="3" fill="#777" stroke="none"/><circle cx="775" cy="466" r="3" fill="#777" stroke="none"/><circle cx="788" cy="466" r="3" fill="#777" stroke="none"/>
+  </g>
+
+  <g fill="#666666" font-family="-apple-system, BlinkMacSystemFont, sans-serif" text-anchor="middle" font-weight="600">
+    <text x="200" y="379" font-size="25">7.1 W</text>
+    <text x="496" y="379" font-size="25">7.1 W</text>
+    <text x="835" y="200" font-size="21">2.5 W</text>
+    <text x="835" y="340" font-size="21">0.5 W</text>
+    <text x="835" y="480" font-size="21">4.1 W</text>
+  </g>
+</svg>

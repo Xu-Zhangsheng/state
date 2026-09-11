@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff"/><stop offset=".24" stop-color="#e8edf0"/>
+      <stop offset=".48" stop-color="#fafcfd"/><stop offset=".72" stop-color="#cbd6de"/>
+      <stop offset=".88" stop-color="#f9fcff"/><stop offset="1" stop-color="#b7c3cd"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff"/><stop offset=".3" stop-color="#a5b4c0"/><stop offset=".46" stop-color="#fff"/>
+      <stop offset=".65" stop-color="#f1f7fb"/><stop offset="1" stop-color="#8899a6"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#fff" stop-opacity=".96"/><stop offset=".44" stop-color="#ecf1f5" stop-opacity=".55"/>
+      <stop offset=".52" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#bccbd6" stop-opacity=".6"/>
+    </linearGradient>
+    <linearGradient id="etch" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6c8191"/><stop offset=".42" stop-color="#aebfc9"/><stop offset=".6" stop-color="#eff7fb"/><stop offset="1" stop-color="#7f94a4"/>
+    </linearGradient>
+    <filter id="shadow" x="-.5" y="-.5" width="2" height="2">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#536675" flood-opacity=".24"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+    <rect id="pin" x="322" y="176" width="40" height="114" rx="17"/>
+    <g id="pins"><use href="#pin"/><use href="#pin" x="76"/><use href="#pin" x="152"/><use href="#pin" x="228"/><use href="#pin" x="304"/></g>
+    <path id="bolt" d="M552 342L421 526Q415 536 428 536H493L469 675L603 481Q610 471 597 471H531Z"/>
+  </defs>
+  <rect x="40" y="40" width="944" height="944" rx="212" fill="white"/>
+  <g filter="url(#shadow)">
+    <g fill="url(#glass)" stroke="url(#rim)" stroke-width="4">
+      <use href="#pins"/><use href="#pins" transform="rotate(90 512 512)"/>
+      <use href="#pins" transform="rotate(180 512 512)"/><use href="#pins" transform="rotate(270 512 512)"/>
+    </g>
+    <rect x="250" y="250" width="524" height="524" rx="99" fill="url(#glass)" stroke="url(#rim)" stroke-width="5"/>
+    <rect x="269" y="268" width="486" height="486" rx="83" fill="none" stroke="white" stroke-opacity=".85" stroke-width="5"/>
+    <rect x="292" y="292" width="440" height="440" rx="65" fill="url(#face)" stroke="#99acba" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M286 395V349Q286 285 350 285H647" fill="none" stroke="white" stroke-width="9" stroke-linecap="round"/>
+    <path d="M743 601V674Q743 742 674 742H374" fill="none" stroke="#9bb2c2" stroke-opacity=".6" stroke-width="7" stroke-linecap="round"/>
+    <path d="M318 692Q462 733 700 583" fill="none" stroke="white" stroke-width="13" opacity=".55" filter="url(#soft)"/>
+    <use href="#bolt" fill="none" stroke="white" stroke-width="10" transform="translate(0 5)" stroke-linejoin="round"/>
+    <use href="#bolt" fill="url(#etch)" stroke="#8c9faa" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M550 349L424 529H499" fill="none" stroke="#607787" stroke-opacity=".7" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+</svg>

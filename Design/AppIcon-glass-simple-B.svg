@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="translate(400 342) rotate(48) scale(530)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DFFAD" stop-opacity="0.88"/>
+      <stop offset="0.72" stop-color="#12C86A" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#00A957"/>
+    </radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="165%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#087A45" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="40" y="40" width="944" height="944" rx="226" fill="#FFFFFF" stroke="#DFF6E9" stroke-width="4"/>
+  <circle cx="512" cy="512" r="310" fill="url(#orb)" filter="url(#shadow)"/>
+  <ellipse cx="424" cy="360" rx="190" ry="96" fill="#FFFFFF" fill-opacity="0.22"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="300" y="382" width="400" height="260" rx="84"/>
+    <path d="M700 454H736C756 454 772 470 772 490V534C772 554 756 570 736 570H700"/>
+    <path d="M350 472V548C350 576 373 599 401 599H430"/>
+    <path d="M320 454H380V510H320Z"/>
+    <path d="M335 426V454M365 426V454"/>
+  </g>
+  <path d="M500 414L438 520H507L478 602L606 478H532L562 414Z" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,17 @@
+xcuserdata/
+
+*.hmap
+
+timeline.xctimeline
+playground.xcworkspace
+
+build/
+.build/
+.DS_Store
+.claude/
+.codex/
+dist/
+Design/state-icon.blend1
+Design/*.blend1
+Stasis/Views/Settings/DashboardSettingsView 2.swift
+docs/images/state-settings.png

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a2a2d"/>
+      <stop offset="1" stop-color="#202023"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="360" rx="28" fill="#1c1c1e"/>
+  <rect x="18" y="18" width="724" height="324" rx="26" fill="url(#surface)" stroke="#5f6064" stroke-width="1"/>
+
+  <!-- fluid paths; no decorative separators -->
+  <path d="M136 164 C184 164 208 164 256 164 L256 196 C208 196 184 196 136 196Z" fill="#d8d8dc" opacity=".22"/>
+  <path d="M378 180 C445 180 455 92 528 92 L528 116 C456 116 441 193 378 204Z" fill="#d8d8dc" opacity=".18"/>
+  <path d="M378 180 C445 180 455 166 528 166 L528 190 C455 190 442 196 378 204Z" fill="#d8d8dc" opacity=".14"/>
+  <path d="M378 180 C448 180 454 238 528 238 L528 262 C454 262 441 204 378 204Z" fill="#d8d8dc" opacity=".22"/>
+
+  <!-- tall native-style nodes -->
+  <rect x="48" y="91" width="88" height="178" rx="28" fill="#252528" stroke="#707176" stroke-width="1.5"/>
+  <rect x="256" y="91" width="122" height="178" rx="28" fill="#27272a" stroke="#707176" stroke-width="1.5"/>
+  <g fill="none" stroke="#c1c1c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M87 140v-18m-10 0h20m-14 18v-10m8 10v-10"/><path d="M80 140c0 8 14 8 14 0"/>
+    <rect x="293" y="139" width="48" height="32" rx="3"/><path d="M285 178h64m-53-7-5 7m48-7 5 7"/>
+  </g>
+  <g fill="#f2f2f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" text-anchor="middle" font-weight="600">
+    <text x="92" y="226" font-size="18">7.1 W</text>
+    <text x="317" y="226" font-size="18">7.1 W</text>
+  </g>
+
+  <!-- low-contrast branch endpoints -->
+  <g fill="#2a2a2d" stroke="#727378" stroke-width="1.5">
+    <rect x="528" y="70" width="166" height="48" rx="18"/>
+    <rect x="528" y="144" width="166" height="48" rx="18"/>
+    <rect x="528" y="218" width="166" height="48" rx="18"/>
+  </g>
+  <g fill="none" stroke="#c1c1c5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="551" y="84" width="21" height="15" rx="2"/><path d="M547 103h29"/>
+    <rect x="550" y="157" width="21" height="21" rx="3"/><path d="M555 153v-4m6 4v-4m-6 32v4m6-4v4m-15-14h-4m25 0h4"/>
+    <circle cx="553" cy="242" r="2" fill="#c1c1c5" stroke="none"/><circle cx="561" cy="242" r="2" fill="#c1c1c5" stroke="none"/><circle cx="569" cy="242" r="2" fill="#c1c1c5" stroke="none"/>
+  </g>
+  <g fill="#f2f2f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600">
+    <text x="637" y="101" text-anchor="middle">2.5 W</text>
+    <text x="637" y="175" text-anchor="middle">0.5 W</text>
+    <text x="637" y="249" text-anchor="middle">4.1 W</text>
+  </g>
+</svg>

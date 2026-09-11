@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="580" viewBox="0 0 1040 580">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#202124"/>
+      <stop offset="1" stop-color="#17191b"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2.5" flood-color="#000000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <rect width="1040" height="580" fill="url(#background)"/>
+
+  <!-- Adapter node: 0.2.2 semantic surface and thin border. -->
+  <rect x="18" y="104" width="124" height="350" rx="24"
+        fill="#ffffff" fill-opacity=".075" stroke="#ffffff" stroke-opacity=".19" stroke-width="1.5" filter="url(#softShadow)"/>
+
+  <!-- First-stage power body. The dark cut-out creates the split, so the values live on the flow itself. -->
+  <path d="M166 104
+           C246 104 344 55 455 58
+           Q470 58 470 73
+           V480
+           Q470 495 455 495
+           C345 495 250 454 166 454
+           Q154 454 154 442
+           V116
+           Q154 104 166 104 Z"
+        fill="#b8b8bb" fill-opacity=".42"/>
+  <path d="M217 324
+           C296 283 382 302 470 303
+           V385
+           C380 385 296 359 217 324 Z"
+        fill="url(#background)"/>
+
+  <!-- Battery and Mac nodes use asymmetric 0.2.2 radii. -->
+  <path d="M482 58 H576 Q600 58 600 82 V291 Q600 315 576 315 H482 Z"
+        fill="#ffffff" fill-opacity=".075" stroke="#ffffff" stroke-opacity=".19" stroke-width="1.5" filter="url(#softShadow)"/>
+  <path d="M482 385 H580 Q600 385 600 405 V475 Q600 495 580 495 H482 Z"
+        fill="#ffffff" fill-opacity=".075" stroke="#ffffff" stroke-opacity=".19" stroke-width="1.5" filter="url(#softShadow)"/>
+
+  <!-- Second-stage branch ribbons. -->
+  <path d="M612 389 C700 389 744 314 908 314 L908 357 C744 357 700 432 612 432 Z"
+        fill="#b8b8bb" fill-opacity=".22"/>
+  <path d="M612 437 C706 437 748 422 908 422 L908 437 C748 437 706 452 612 452 Z"
+        fill="#b8b8bb" fill-opacity=".18"/>
+  <path d="M612 457 C706 457 748 497 908 497 L908 534 C748 534 706 494 612 494 Z"
+        fill="#b8b8bb" fill-opacity=".20"/>
+
+  <!-- Icon-only endpoints, as in the reference. -->
+  <path d="M920 307 H999 Q1015 307 1015 323 V347 Q1015 363 999 363 H920 Z"
+        fill="#ffffff" fill-opacity=".075" stroke="#ffffff" stroke-opacity=".19" stroke-width="1.4"/>
+  <path d="M920 402 H999 Q1015 402 1015 418 V442 Q1015 458 999 458 H920 Z"
+        fill="#ffffff" fill-opacity=".075" stroke="#ffffff" stroke-opacity=".19" stroke-width="1.4"/>
+  <path d="M920 487 H999 Q1015 487 1015 503 V527 Q1015 543 999 543 H920 Z"
+        fill="#ffffff" fill-opacity=".075" stroke="#ffffff" stroke-opacity=".19" stroke-width="1.4"/>
+
+  <!-- System-like monochrome glyphs with restrained semantic accents. -->
+  <g fill="#d9d9dc">
+    <path d="M59 213 H66 V231 H76 V213 H83 V233 H87 V245 C87 257 78 264 71 264 C64 264 55 257 55 245 V233 H59 Z"/>
+    <rect x="68" y="260" width="6" height="27" rx="3"/>
+  </g>
+  <g fill="none" stroke="#c7c7ca" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="509" y="168" width="45" height="27" rx="5"/><path d="M557 176v11"/>
+  </g>
+  <g fill="none" stroke="#c7c7ca" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="510" y="418" width="43" height="29" rx="3"/><path d="M502 454h59m-48-7-5 7m42-7 5 7"/>
+  </g>
+  <g fill="none" stroke="#c7c7ca" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="953" y="326" width="24" height="24" rx="3"/><path d="M959 321v-5m7 5v-5m7 5v-5m-14 34v5m7-5v5m7-5v5m-19-17h-5m33 0h5"/>
+    <rect x="952" y="419" width="27" height="19" rx="2"/><path d="M948 443h35"/>
+    <circle cx="955" cy="515" r="3" fill="#c7c7ca" stroke="none"/><circle cx="966" cy="515" r="3" fill="#c7c7ca" stroke="none"/><circle cx="977" cy="515" r="3" fill="#c7c7ca" stroke="none"/>
+  </g>
+
+  <!-- Values belong to the flows, not the device cards. -->
+  <g fill="#f2f2f4" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" text-anchor="middle">
+    <text x="80" y="340" font-size="26">85 W</text>
+    <text x="327" y="225" font-size="31">61.2 W</text>
+    <text x="327" y="428" font-size="28">23.7 W</text>
+    <text x="772" y="371" font-size="25">10.7 W</text>
+    <text x="774" y="447" font-size="22">3.8 W</text>
+    <text x="775" y="517" font-size="22">9.2 W</text>
+  </g>
+</svg>

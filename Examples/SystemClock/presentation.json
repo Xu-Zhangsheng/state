@@ -1,0 +1,14 @@
+{
+  "panel": [
+    {
+      "id": "clock",
+      "kind": "infoRow",
+      "title": "Example",
+      "systemImage": "clock",
+      "value": "Ready",
+      "actionID": null,
+      "children": []
+    }
+  ],
+  "menuBar": []
+}

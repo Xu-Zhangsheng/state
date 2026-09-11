@@ -1,0 +1,1 @@
+{"panel":[{"id":"status","kind":"button","title":"Run simulation","systemImage":"play.fill","value":null,"binding":"status","actionID":"simulate","children":[]}],"menuBar":[{"id":"simulation-status","kind":"infoRow","title":"Mock charging policy","systemImage":"bolt.badge.clock","value":"Starting","binding":"status","actionID":null,"children":[]}]}

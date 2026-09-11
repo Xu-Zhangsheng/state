@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="base" x1="132" y1="96" x2="888" y2="936" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252A55"/>
+      <stop offset="0.52" stop-color="#173E59"/>
+      <stop offset="1" stop-color="#0A625E"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="translate(280 196) rotate(49) scale(746)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8C8FF" stop-opacity="0.34"/>
+      <stop offset="0.46" stop-color="#66E9DD" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0B2038" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="184" y1="132" x2="806" y2="886" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#B8FFF4" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="energy" x1="286" y1="430" x2="666" y2="606" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#91FFE5"/>
+      <stop offset="0.58" stop-color="#53E2CF"/>
+      <stop offset="1" stop-color="#6AAEFF"/>
+    </linearGradient>
+    <linearGradient id="energyHighlight" x1="286" y1="430" x2="286" y2="514" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="210" y1="344" x2="822" y2="684" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.92"/>
+      <stop offset="0.48" stop-color="#DDFCF8" stop-opacity="0.68"/>
+      <stop offset="1" stop-color="#A8D8FF" stop-opacity="0.76"/>
+    </linearGradient>
+    <filter id="tileShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#020817" flood-opacity="0.38"/>
+    </filter>
+    <filter id="markShadow" x="-25%" y="-35%" width="150%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#03111F" flood-opacity="0.34"/>
+    </filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <clipPath id="appShape">
+      <rect x="40" y="40" width="944" height="944" rx="226"/>
+    </clipPath>
+    <clipPath id="energyClip">
+      <rect x="286" y="430" width="370" height="164" rx="66"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#appShape)" filter="url(#tileShadow)">
+    <rect x="40" y="40" width="944" height="944" rx="226" fill="url(#base)"/>
+    <rect x="40" y="40" width="944" height="944" rx="226" fill="url(#ambient)"/>
+
+    <circle cx="276" cy="168" r="270" fill="#9CC6FF" fill-opacity="0.12" filter="url(#softGlow)"/>
+    <circle cx="870" cy="858" r="310" fill="#4FF4D1" fill-opacity="0.10" filter="url(#softGlow)"/>
+
+    <rect x="116" y="116" width="792" height="792" rx="194" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.17" stroke-width="3"/>
+    <path d="M174 340C238 204 360 146 516 146C655 146 768 194 846 294" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="5" stroke-linecap="round"/>
+
+    <g filter="url(#markShadow)">
+      <rect x="222" y="366" width="574" height="292" rx="116" fill="#061929" fill-opacity="0.28" stroke="url(#rim)" stroke-width="16"/>
+      <path d="M796 456H816C839 456 858 475 858 498V526C858 549 839 568 816 568H796" fill="#E9FFFC" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.46" stroke-width="8"/>
+
+      <rect x="262" y="406" width="494" height="212" rx="84" fill="#031421" fill-opacity="0.34" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="3"/>
+      <rect x="286" y="430" width="370" height="164" rx="66" fill="url(#energy)"/>
+      <rect x="286" y="430" width="370" height="88" fill="url(#energyHighlight)" clip-path="url(#energyClip)"/>
+
+      <line x1="656" y1="418" x2="656" y2="606" stroke="#F4FFFF" stroke-opacity="0.82" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="656" cy="512" r="22" fill="#F3FFFD" fill-opacity="0.96"/>
+      <circle cx="656" cy="512" r="11" fill="#3B8FA5" fill-opacity="0.88"/>
+    </g>
+
+    <rect x="42" y="42" width="940" height="940" rx="224" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="4"/>
+  </g>
+</svg>

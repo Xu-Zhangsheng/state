@@ -1,0 +1,9 @@
+{
+  "id":"app.stasis.example.mock-charging-policy","version":"0.1.0","protocolVersion":"1.0",
+  "minHostVersion":"1.0.0-beta.1","minOSVersion":"14.8","architectures":["arm64"],
+  "roles":["presentation","business"],"entrypoint":"Worker","provides":[],"requires":[],
+  "permissions":[],"uiCapabilities":["native.rows.v1","native.settings.v1","settings.validation.v1"],
+  "author":"Stasis Project","license":"GPL-3.0","settingsVersion":1,
+  "displayName":"Mock Charging Policy","summary":"Demonstrates actions and settings without touching hardware.",
+  "systemImage":"battery.100.bolt","settingsAreas":["general","panel","feature"]
+}

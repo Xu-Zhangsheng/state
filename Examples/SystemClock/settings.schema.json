@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "settings": [
+    {
+      "id": "showSeconds",
+      "type": "boolean",
+      "title": "Show seconds",
+      "description": "Include seconds in the example clock.",
+      "area": "panel",
+      "defaultValue": true,
+      "minimum": null,
+      "maximum": null,
+      "step": null,
+      "options": []
+    },
+    {
+      "id": "clockStyle",
+      "type": "choice",
+      "title": "Clock style",
+      "description": "Select a formatting style for the example.",
+      "area": "feature",
+      "defaultValue": "system",
+      "minimum": null,
+      "maximum": null,
+      "step": null,
+      "options": [
+        {"value": "system", "title": "System"},
+        {"value": "compact", "title": "Compact"}
+      ]
+    }
+  ]
+}

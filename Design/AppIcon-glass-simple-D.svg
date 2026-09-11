@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="glass" x1="308" y1="246" x2="704" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9BFFC0" stop-opacity="0.76"/>
+      <stop offset="0.58" stop-color="#2AD777" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#08A959" stop-opacity="0.96"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#087A45" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="40" y="40" width="944" height="944" rx="226" fill="#FFFFFF" stroke="#DFF6E9" stroke-width="4"/>
+  <g filter="url(#shadow)">
+    <rect x="260" y="210" width="504" height="604" rx="158" fill="url(#glass)"/>
+    <path d="M324 274H646C676 274 700 298 700 328" fill="none" stroke="#FFFFFF" stroke-opacity="0.54" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="348" y="350" width="310" height="218" rx="72"/>
+    <path d="M658 410H684C701 410 714 423 714 440V478C714 495 701 508 684 508H658"/>
+    <path d="M396 616V650C396 686 425 715 461 715H510"/>
+    <path d="M364 598H428V658H364Z"/>
+    <path d="M380 568V598M412 568V598"/>
+  </g>
+  <path d="M492 374L438 466H500L474 540L590 428H526L552 374Z" fill="#FFFFFF"/>
+</svg>

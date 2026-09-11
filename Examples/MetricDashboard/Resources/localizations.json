@@ -1,0 +1,17 @@
+{
+  "en": {
+    "module.name": "Example Metric Dashboard",
+    "module.summary": "Displays a metric supplied by another installed module.",
+    "metric.title": "Example metric"
+  },
+  "zh-Hans": {
+    "module.name": "示例指标面板",
+    "module.summary": "显示由另一个已安装模块提供的指标。",
+    "metric.title": "示例指标"
+  },
+  "zh-Hant": {
+    "module.name": "範例指標面板",
+    "module.summary": "顯示由另一個已安裝模組提供的指標。",
+    "metric.title": "範例指標"
+  }
+}

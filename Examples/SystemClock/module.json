@@ -1,0 +1,21 @@
+{
+  "id": "app.stasis.example.system-clock",
+  "version": "0.1.0",
+  "protocolVersion": "1.0",
+  "minHostVersion": "1.0.0-beta.1",
+  "minOSVersion": "14.8",
+  "architectures": ["arm64"],
+  "roles": ["presentation"],
+  "entrypoint": null,
+  "provides": [],
+  "requires": [],
+  "permissions": [],
+  "uiCapabilities": ["native.rows.v1"],
+  "author": "Stasis Project",
+  "license": "MIT",
+  "settingsVersion": 1,
+  "displayName": "System Clock",
+  "summary": "A declaration-only module rendered entirely by Stasis.",
+  "systemImage": "clock",
+  "settingsAreas": ["general", "panel", "feature"]
+}

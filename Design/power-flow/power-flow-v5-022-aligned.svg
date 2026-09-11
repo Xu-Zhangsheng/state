@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250">
+  <rect width="760" height="250" fill="#ffffff"/>
+
+  <!-- 0.2.2 geometry: 60 pt source/host nodes, 76 pt branch nodes. -->
+  <path d="M56 45 H100 V205 H56 A16 16 0 0 1 40 189 V61 A16 16 0 0 1 56 45Z"
+        fill="#f4f3f3" stroke="#777777" stroke-width="1.2"/>
+  <rect x="145" y="45" width="60" height="160" fill="#f4f3f3" stroke="#777777" stroke-width="1.2"/>
+
+  <!-- straight input trunk, aligned to the original 5 pt node gap -->
+  <rect x="100" y="54" width="45" height="142" fill="#d5d5d6"/>
+
+  <!-- broad output body with two native-style concave cut-ins -->
+  <path d="M205 54 H580 V196 H205 Z" fill="#d5d5d6"/>
+  <path d="M300 80 C380 80 430 92 580 92 V105 C430 105 380 96 300 96Z" fill="#ffffff"/>
+  <path d="M300 143 C380 143 430 154 580 154 V167 C430 167 380 159 300 159Z" fill="#ffffff"/>
+
+  <!-- right nodes use the 0.2.2 asymmetric corner treatment -->
+  <path d="M580 54 H648 A12 12 0 0 1 660 66 V80 A12 12 0 0 1 648 92 H580Z"
+        fill="#f4f3f3" stroke="#777777" stroke-width="1.2"/>
+  <path d="M580 105 H648 A12 12 0 0 1 660 117 V131 A12 12 0 0 1 648 143 H580Z"
+        fill="#f4f3f3" stroke="#777777" stroke-width="1.2"/>
+  <path d="M580 156 H648 A12 12 0 0 1 660 168 V182 A12 12 0 0 1 648 194 H580Z"
+        fill="#f4f3f3" stroke="#777777" stroke-width="1.2"/>
+
+  <!-- small system-like glyphs -->
+  <g fill="none" stroke="#777777" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 104v-11m-7 0h14m-10 11v-7m6 7v-7M65 104c0 6 10 6 10 0"/>
+    <rect x="159" y="98" width="31" height="22" rx="2"/><path d="M154 126h41m-34-6-3 6m28-6 3 6"/>
+    <rect x="594" y="64" width="15" height="11" rx="1.5"/><path d="M591 78h21"/>
+    <rect x="594" y="114" width="14" height="14" rx="2"/><path d="M598 111v-3m5 3v-3m5 3v-3m-10 20v3m5-3v3m5-3v3m-13-8h-3m17 0h3"/>
+    <circle cx="595" cy="169" r="1.6" fill="#777777" stroke="none"/><circle cx="602" cy="169" r="1.6" fill="#777777" stroke="none"/><circle cx="609" cy="169" r="1.6" fill="#777777" stroke="none"/>
+  </g>
+
+  <g fill="#666666" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" text-anchor="middle">
+    <text x="70" y="158" font-size="12">7.1 W</text>
+    <text x="175" y="158" font-size="11">7.1 W</text>
+    <text x="635" y="76" font-size="11">2.5 W</text>
+    <text x="635" y="127" font-size="11">0.5 W</text>
+    <text x="635" y="178" font-size="11">4.1 W</text>
+  </g>
+</svg>

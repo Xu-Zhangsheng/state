@@ -1,0 +1,26 @@
+name: Build and contract checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify architecture boundaries
+        run: Tools/verify-architecture.sh
+      - name: Test public packages
+        run: swift test --package-path Packages
+      - name: Test module tooling
+        run: swift test --package-path Tools/StasisModuleCLI
+      - name: Build example workers
+        run: |
+          swift build --package-path Examples/MetricProvider -c release
+          swift build --package-path Examples/MetricDashboard -c release
+          swift build --package-path Examples/MockChargingPolicy -c release
+      - name: Build Apple Silicon host
+        run: >-
+          xcodebuild -project stasis.xcodeproj -scheme stasis -configuration Debug
+          -destination 'platform=macOS,arch=arm64' CODE_SIGNING_ALLOWED=NO build
