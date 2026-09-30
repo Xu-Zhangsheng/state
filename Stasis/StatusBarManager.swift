@@ -92,7 +92,11 @@ final class StatusBarManager {
         settingsObservation = Task { [weak self] in
             guard let self else { return }
             for await _ in Defaults.updates(
-                [.batteryPercentageDisplayLocation, .showBatteryStateInStatusIcon],
+                [
+                    .batteryPercentageDisplayLocation,
+                    .showBatteryStateInStatusIcon,
+                    .batteryStatusIconStyle,
+                ],
                 initial: false
             ) {
                 guard !Task.isCancelled else { return }
@@ -140,6 +144,9 @@ final class StatusBarManager {
         let location = Defaults[.batteryPercentageDisplayLocation]
         let showState = Defaults[.showBatteryStateInStatusIcon]
         let percentage = max(0, min(100, viewModel.displayPercentage))
+        // Read the current system value here. Power-state notifications can
+        // reach this observer before MenuViewModel updates its cached value.
+        let lowPowerMode = ProcessInfo.processInfo.isLowPowerModeEnabled
 
         let state: SystemBatteryIconState = switch viewModel.chargingMode {
         case .charging: .charging
@@ -148,19 +155,51 @@ final class StatusBarManager {
         }
 
         button.effectiveAppearance.performAsCurrentDrawingAppearance {
-            button.image = SystemBatteryIconRenderer.image(
-                level: percentage,
-                state: state,
-                isLowPowerModeEnabled: viewModel.isLowPowerModeEnabled,
-                showState: showState,
-                isHighlighted: isMenuHighlighted,
-                foregroundColor: .labelColor
-            )
+            // Resolve the menu-bar colour here, from the button's own
+            // appearance. Leaving it dynamic let the drawing context resolve it
+            // against a different appearance, which painted the uncharged
+            // capacity black instead of the menu-bar grey.
+            // Default to the light menu-bar glyph. A status item reports
+            // NSAppearanceNameVibrantDark once it is installed, but the very
+            // first update can still see the app default, and treating that as
+            // light painted the uncharged capacity black until the icon was
+            // redrawn. Only an explicitly light appearance switches to black.
+            // Always the light glyph. macOS 26 draws the menu bar as dark
+            // tinted glass and the button's reported appearance is not reliable
+            // here: it flipped to a light variant, which painted the battery
+            // black on a black bar. The system's own battery glyph is white.
+            let menuBarColor: NSColor = .white
+            switch Defaults[.batteryStatusIconStyle] {
+            case .macOS27:
+                button.image = SystemBatteryIconRenderer.macOS27Image(
+                    level: percentage,
+                    state: state,
+                    isLowPowerModeEnabled: lowPowerMode,
+                    showState: showState,
+                    showPercentage: location != .hidden,
+                    isHighlighted: isMenuHighlighted,
+                    foregroundColor: menuBarColor
+                )
+            case .classic:
+                button.image = SystemBatteryIconRenderer.classicImage(
+                    level: percentage,
+                    state: state,
+                    isLowPowerModeEnabled: lowPowerMode,
+                    showState: showState,
+                    isHighlighted: isMenuHighlighted,
+                    foregroundColor: menuBarColor
+                )
+            }
         }
         button.contentTintColor = nil
-        button.title = location == .nextToIcon ? "\(percentage)%" : ""
-        // The system Battery menu extra places the percentage before the icon.
-        button.imagePosition = location == .nextToIcon ? .imageRight : .imageOnly
+        if Defaults[.batteryStatusIconStyle] == .classic,
+           location == .nextToIcon {
+            button.title = "\(percentage)%"
+            button.imagePosition = .imageRight
+        } else {
+            button.title = ""
+            button.imagePosition = .imageOnly
+        }
         button.toolTip = statusTooltip(level: percentage)
     }
 

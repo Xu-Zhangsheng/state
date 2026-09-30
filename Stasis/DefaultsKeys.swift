@@ -11,6 +11,20 @@ enum PercentageDisplayLocation: String, Defaults.Serializable, CaseIterable, Ide
     var id: String { rawValue }
 }
 
+enum BatteryStatusIconStyle: String, Defaults.Serializable, CaseIterable, Identifiable {
+    case macOS27
+    case classic
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .macOS27: String(localized: "macOS 27 Battery")
+        case .classic: String(localized: "Classic Battery")
+        }
+    }
+}
+
 extension Defaults.Keys {
     // General
     static let launchAtLogin = Key<Bool>("launchAtLogin", default: false)
@@ -20,6 +34,8 @@ extension Defaults.Keys {
         "batteryPercentageDisplayLocation", default: .nextToIcon)
     static let showBatteryStateInStatusIcon = Key<Bool>(
         "showBatteryStateInStatusIcon", default: true)
+    static let batteryStatusIconStyle = Key<BatteryStatusIconStyle>(
+        "batteryStatusIconStyle", default: .macOS27)
 
     // Notifications
     static let disableNotifications = Key<Bool>("disableNotifications", default: false)

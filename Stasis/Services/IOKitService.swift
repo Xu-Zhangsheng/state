@@ -8,6 +8,14 @@ import os.log
 class IOKitService {
     private var notificationPort: IONotificationPortRef?
     private var interestNotification: io_object_t = 0
+    private var powerSourceRunLoopSource: CFRunLoopSource?
+    private var powerSourceObserver: NSObjectProtocol?
+
+    /// Posted from the IOKit callbacks, which must never touch this object:
+    /// their refcon outlives the instance and dereferencing it crashed the app.
+    private static let powerSourceChanged = Notification.Name(
+        "com.srimanachanta.stasis.powerSourceChanged"
+    )
     private var batteryService: io_service_t = 0
 
     private var continuation: AsyncStream<(BatteryMetrics, AdapterMetrics)>.Continuation?
@@ -62,17 +70,8 @@ class IOKitService {
         let notificationSource = IONotificationPortGetRunLoopSource(notificationPort).takeUnretainedValue()
         CFRunLoopAddSource(CFRunLoopGetMain(), notificationSource, .commonModes)
 
-        let context = UnsafeMutableRawPointer(
-            Unmanaged.passUnretained(self).toOpaque()
-        )
-
-        let callback: IOServiceInterestCallback = { refcon, _, _, _ in
-            guard let refcon else { return }
-            let monitor = Unmanaged<IOKitService>.fromOpaque(refcon)
-                .takeUnretainedValue()
-            MainActor.assumeIsolated {
-                monitor.emitMetrics()
-            }
+        let callback: IOServiceInterestCallback = { _, _, _, _ in
+            NotificationCenter.default.post(name: IOKitService.powerSourceChanged, object: nil)
         }
 
         let result = IOServiceAddInterestNotification(
@@ -80,7 +79,7 @@ class IOKitService {
             batteryService,
             kIOGeneralInterest,
             callback,
-            context,
+            nil,
             &interestNotification
         )
 
@@ -90,10 +89,50 @@ class IOKitService {
             logger.error("Failed to register interest notification: \(result)")
         }
 
+        // AppleSmartBattery interest notifications do not fire for every
+        // adapter change, which left the menu-bar icon showing the previous
+        // charging state until the menu was opened. The documented power-source
+        // run-loop source does fire on connect and disconnect, so register it
+        // as well and republish immediately.
+        // This callback is not guaranteed to arrive on the main thread, so it
+        // must hop instead of asserting isolation. assertIsolated here crashed
+        // the app with SIGSEGV on the first adapter change.
+        let powerSourceCallback: IOPowerSourceCallbackType = { _ in
+            NotificationCenter.default.post(name: IOKitService.powerSourceChanged, object: nil)
+        }
+        if let source = IOPSNotificationCreateRunLoopSource(
+            powerSourceCallback,
+            nil
+        )?.takeRetainedValue() {
+            CFRunLoopAddSource(CFRunLoopGetMain(), source, .commonModes)
+            powerSourceRunLoopSource = source
+            logger.info("Power-source notification registered")
+        } else {
+            logger.error("Failed to register power-source notification")
+        }
+
+        powerSourceObserver = NotificationCenter.default.addObserver(
+            forName: Self.powerSourceChanged,
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            Task { @MainActor in
+                self?.emitMetrics()
+            }
+        }
+
         emitMetrics()
     }
 
     private func stop() {
+        if let powerSourceObserver {
+            NotificationCenter.default.removeObserver(powerSourceObserver)
+            self.powerSourceObserver = nil
+        }
+        if let powerSourceRunLoopSource {
+            CFRunLoopRemoveSource(CFRunLoopGetMain(), powerSourceRunLoopSource, .commonModes)
+            self.powerSourceRunLoopSource = nil
+        }
         if interestNotification != 0 {
             IOObjectRelease(interestNotification)
             interestNotification = 0
@@ -148,6 +187,11 @@ class IOKitService {
             getPropertyValue(batteryService, key: "ExternalConnected") ?? false
 
         adapterMetrics.adapterConnected = isAdapterConnected()
+
+        populateElectricalMetrics(
+            battery: &batteryMetrics,
+            adapter: &adapterMetrics
+        )
 
         if let temp = getBatteryTemperature(powerInfo: powerInfo) {
             batteryMetrics.batteryTemperature = temp
@@ -254,24 +298,131 @@ class IOKitService {
     }
 
     private func getBatteryTemperature(powerInfo: [String: Any]?) -> Double? {
-        if let powerInfo,
-            let temp = powerInfo[kIOPSTemperatureKey] as? Int,
-            temp > 0
-        {
+        // On current macOS the public power-source dictionary publishes this
+        // value directly in Celsius. Older releases used other encodings, so
+        // only accept it when it already falls in a plausible Celsius range.
+        if let raw = powerInfo?[kIOPSTemperatureKey],
+           let temperature = numericValue(raw),
+           (0...80).contains(temperature) {
+            return temperature
+        }
+
+        // macOS 27 publishes the temperature inside the BatteryData dictionary
+        // of the AppleSmartBatteryPack child. Searching for a standalone
+        // Temperature property on AppleSmartBattery always returns nil there.
+        if let packData = batteryPackData() {
+            for key in ["VirtualTemperature", "Temperature"] {
+                if let encoded = numericValue(packData[key]),
+                   (100...8_000).contains(encoded) {
+                    let celsius = encoded / 100
+                    if (0...80).contains(celsius) { return celsius }
+                }
+            }
+        }
+
+        // Legacy AppleSmartBattery exposes Temperature as decikelvin.
+        if let temp: Int = getPropertyValue(batteryService, key: "Temperature"),
+           temp > 0, temp <= 5_000 {
             return decikelvinToCelsius(temp)
         }
+        return nil
+    }
 
-        guard
-            let temp: Int = getPropertyValue(
-                batteryService,
-                key: "Temperature"
-            ),
-            temp > 0, temp <= 5000
-        else {
-            return nil
+    private func populateElectricalMetrics(
+        battery: inout BatteryMetrics,
+        adapter: inout AdapterMetrics
+    ) {
+        let telemetry: [String: Any]? = getPropertyValue(
+            batteryService,
+            key: "PowerTelemetryData"
+        )
+        if let voltageRaw = firstNumericProperty(["Voltage", "AppleRawBatteryVoltage"]),
+           let currentRaw = firstNumericProperty(["Amperage", "InstantAmperage"]),
+           voltageRaw > 0 {
+            battery.batteryVoltage = voltageRaw / 1_000
+            battery.batteryCurrent = currentRaw / 1_000
+            battery.batteryPower = battery.batteryVoltage * battery.batteryCurrent
+            battery.electricalMetricsAvailable = true
         }
 
-        return decikelvinToCelsius(temp)
+        // The current sensor can briefly report zero after a power-source
+        // transition while the battery is still supplying the computer.
+        // The same registry snapshot carries a direct battery-power estimate.
+        if let batteryPowerRaw = numericValue(telemetry?["BatteryPower"]),
+           batteryPowerRaw.isFinite,
+           abs(batteryPowerRaw) <= 500_000,
+           abs(battery.batteryPower) < 0.1,
+           abs(batteryPowerRaw) >= 100 {
+            battery.batteryPower = batteryPowerRaw / 1_000
+            if battery.batteryVoltage > 0 {
+                battery.batteryCurrent = battery.batteryPower / battery.batteryVoltage
+            }
+            battery.electricalMetricsAvailable = true
+        }
+
+        if let telemetry {
+            let voltage = numericValue(telemetry["SystemVoltageIn"])
+            let current = numericValue(telemetry["SystemCurrentIn"])
+            let power = numericValue(telemetry["SystemPowerIn"])
+            if let voltage, voltage > 0 {
+                adapter.adapterVoltage = voltage / 1_000
+                adapter.adapterCurrent = (current ?? 0) / 1_000
+                adapter.adapterPower = power.map { $0 / 1_000 }
+                    ?? adapter.adapterVoltage * adapter.adapterCurrent
+                adapter.electricalMetricsAvailable = true
+                adapter.adapterConnected = true
+            }
+        }
+
+        if !adapter.electricalMetricsAvailable,
+           let details: [String: Any] = getPropertyValue(
+               batteryService,
+               key: "AdapterDetails"
+           ) {
+            let voltage = numericValue(details["AdapterVoltage"])
+            let current = numericValue(details["Current"])
+            let watts = numericValue(details["Watts"])
+            if let voltage, voltage > 0 {
+                adapter.adapterVoltage = voltage / 1_000
+                adapter.adapterCurrent = (current ?? 0) / 1_000
+                adapter.adapterPower = watts
+                    ?? adapter.adapterVoltage * adapter.adapterCurrent
+                adapter.electricalMetricsAvailable = true
+            }
+        }
+    }
+
+    private func firstNumericProperty(_ keys: [String]) -> Double? {
+        for key in keys {
+            if let value: NSNumber = getPropertyValue(batteryService, key: key) {
+                return value.doubleValue
+            }
+        }
+        return nil
+    }
+
+    private nonisolated func numericValue(_ value: Any?) -> Double? {
+        if let number = value as? NSNumber { return number.doubleValue }
+        if let number = value as? Double { return number }
+        if let number = value as? Int { return Double(number) }
+        if let number = value as? Int64 { return Double(number) }
+        return nil
+    }
+
+    private func batteryPackData() -> [String: Any]? {
+        var iterator: io_iterator_t = 0
+        guard IORegistryEntryGetChildIterator(batteryService, kIOServicePlane, &iterator)
+            == KERN_SUCCESS else { return nil }
+        defer { IOObjectRelease(iterator) }
+
+        while true {
+            let child = IOIteratorNext(iterator)
+            guard child != 0 else { return nil }
+            defer { IOObjectRelease(child) }
+            guard IOObjectConformsTo(child, "AppleSmartBatteryPack") != 0 else { continue }
+            let data: [String: Any]? = getPropertyValue(child, key: "BatteryData")
+            if let data { return data }
+        }
     }
 
     private nonisolated func decikelvinToCelsius(_ decikelvin: Int) -> Double? {

@@ -7,6 +7,7 @@ struct PowerSankeyView: View {
     let batteryPower: Double
     let adapterPower: Double
     let systemPower: Double
+    let hasPowerData: Bool
     let powerBreakdown: [PowerBreakdownItem]
 
     init(
@@ -15,6 +16,7 @@ struct PowerSankeyView: View {
         batteryPower: Double,
         adapterPower: Double,
         systemPower: Double,
+        hasPowerData: Bool = true,
         powerBreakdown: [PowerBreakdownItem] = []
     ) {
         self.powerSource = powerSource
@@ -22,6 +24,7 @@ struct PowerSankeyView: View {
         self.batteryPower = batteryPower
         self.adapterPower = adapterPower
         self.systemPower = systemPower
+        self.hasPowerData = hasPowerData
         self.powerBreakdown = powerBreakdown
     }
 
@@ -36,7 +39,7 @@ struct PowerSankeyView: View {
         static let largeNodeHeight: CGFloat = 80
         static let splitNodeGap: CGFloat = 6
         static let outerInset: CGFloat = 4
-        static let flowOpacity: Double = 0.15
+        static let flowOpacity: Double = 0.11
     }
 
     var body: some View {
@@ -48,7 +51,7 @@ struct PowerSankeyView: View {
     }
 
     private var hasDetailedBreakdown: Bool {
-        systemPower > 0.1 && !powerBreakdown.isEmpty
+        hasPowerData && systemPower > 0.1 && !powerBreakdown.isEmpty
     }
 
     private var hasSplitFlow: Bool {
@@ -81,18 +84,20 @@ struct PowerSankeyView: View {
                             batteryPower: batteryPower,
                             adapterPower: adapterPower
                         )
-                    case .battery:
+                    case .battery where hasPowerData:
                         drawSimpleFlow(
                             context: context,
                             size: canvasSize,
                             power: systemPower
                         )
-                    case .acAdapter:
+                    case .acAdapter where hasPowerData:
                         drawSimpleFlow(
                             context: context,
                             size: canvasSize,
                             power: max(adapterPower, systemPower)
                         )
+                    default:
+                        break
                     }
                 }
 
@@ -283,7 +288,7 @@ struct PowerSankeyView: View {
         case .acAdapter:
             NodeView(
                 icon: "powerplug.fill",
-                value: max(adapterPower, systemPower),
+                value: hasPowerData ? max(adapterPower, systemPower) : nil,
                 isLeftSide: true,
                 width: nodeWidth
             )
@@ -292,7 +297,7 @@ struct PowerSankeyView: View {
 
             NodeView(
                 icon: "laptopcomputer",
-                value: systemPower,
+                value: hasPowerData ? systemPower : nil,
                 isLeftSide: false,
                 width: nodeWidth
             )
@@ -302,7 +307,7 @@ struct PowerSankeyView: View {
         case .battery:
             NodeView(
                 icon: "battery.100",
-                value: max(abs(batteryPower), systemPower),
+                value: hasPowerData ? max(abs(batteryPower), systemPower) : nil,
                 isLeftSide: true,
                 width: nodeWidth
             )
@@ -311,7 +316,7 @@ struct PowerSankeyView: View {
 
             NodeView(
                 icon: "laptopcomputer",
-                value: systemPower,
+                value: hasPowerData ? systemPower : nil,
                 isLeftSide: false,
                 width: nodeWidth
             )
@@ -435,6 +440,7 @@ struct PowerSankeyView: View {
         size: CGSize,
         power: Double
     ) {
+        guard power.isFinite, power > 0.1 else { return }
         let edges = PowerFlowLayout.standardFlowEdges(
             width: size.width,
             nodeWidth: Layout.nodeWidth,
@@ -778,8 +784,30 @@ struct PowerSankeyView: View {
         color: Color = Color.primary.opacity(Layout.flowOpacity)
     ) {
         let controlX = topLeft.x + (topRight.x - topLeft.x) * 0.5
+        // The nodes are rounded, so the connector has to be rounded as well;
+        // a square band beside a rounded node reads as a heavy dark block.
+        let radius = max(0, min(3, (bottomLeft.y - topLeft.y) / 3, (bottomRight.y - topRight.y) / 3))
 
         let path = Path { p in
+            if radius > 0.5 {
+                p.move(to: CGPoint(x: topLeft.x + radius, y: topLeft.y))
+                p.addCurve(
+                    to: CGPoint(x: topRight.x - radius, y: topRight.y),
+                    control1: CGPoint(x: controlX, y: topLeft.y),
+                    control2: CGPoint(x: controlX, y: topRight.y)
+                )
+                p.addArc(tangent1End: topRight, tangent2End: bottomRight, radius: radius)
+                p.addArc(tangent1End: bottomRight, tangent2End: bottomLeft, radius: radius)
+                p.addCurve(
+                    to: CGPoint(x: bottomLeft.x + radius, y: bottomLeft.y),
+                    control1: CGPoint(x: controlX, y: bottomRight.y),
+                    control2: CGPoint(x: controlX, y: bottomLeft.y)
+                )
+                p.addArc(tangent1End: bottomLeft, tangent2End: topLeft, radius: radius)
+                p.addArc(tangent1End: topLeft, tangent2End: topRight, radius: radius)
+                p.closeSubpath()
+                return
+            }
             p.move(to: topLeft)
             p.addCurve(
                 to: topRight,
@@ -814,7 +842,7 @@ private struct PowerBreakdownNode: View {
             } else {
                 Image(systemName: item.systemImage)
                     .font(.system(size: 14, weight: .medium))
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(.primary)
             }
         }
         .frame(width: 16, height: 16)
@@ -854,7 +882,7 @@ struct NodeView: View {
             VStack(spacing: 4) {
                 Image(systemName: icon)
                     .font(.system(size: 15, weight: .medium))
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(.primary)
                 if let value {
                     Text(PowerFormatter.string(value))
                         .font(.system(size: 11, weight: .medium))

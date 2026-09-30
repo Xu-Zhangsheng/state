@@ -1,7 +1,7 @@
 import Foundation
 
 enum BuiltInModuleCatalog {
-    static let releaseVersion = "1.0.0-beta.1"
+    static let releaseVersion = "1.0.0-beta.2"
     static let telemetryID = "app.stasis.macos-telemetry"
     static let batteryStatusID = "app.stasis.battery-status"
     static let systemInfoID = "app.stasis.system-info"

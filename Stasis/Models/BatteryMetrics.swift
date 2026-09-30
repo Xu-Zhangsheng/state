@@ -10,7 +10,11 @@ struct BatteryMetrics: Codable, Equatable {
     var batteryVoltage: Double = 0
     var batteryCurrent: Double = 0
     var batteryPower: Double = 0
-    var batteryTemperature: Double = 0
+    /// True when voltage/current/power came from the current IOKit snapshot.
+    /// SMC is retained only as a compatibility fallback on older systems.
+    var electricalMetricsAvailable: Bool = false
+    /// Negative means the sensor has not returned a usable value.
+    var batteryTemperature: Double = -1
 
     var batteryHealth: Int = 0
     var cycleCount: Int = 0
@@ -24,6 +28,7 @@ struct AdapterMetrics: Equatable {
     var adapterVoltage: Double = 0
     var adapterCurrent: Double = 0
     var adapterPower: Double = 0
+    var electricalMetricsAvailable: Bool = false
 }
 
 struct BatteryControlState: Equatable {
