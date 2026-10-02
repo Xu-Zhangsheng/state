@@ -109,6 +109,17 @@ class ChargingHelperManager {
         }
     }
 
+    /// Development builds are ad-hoc signed, so they cannot register a
+    /// privileged daemon themselves. The installer's daemon is still usable
+    /// once it is on disk, and refusing it outright left those builds with no
+    /// charging control at all.
+    private static var legacyDaemonFilesPresent: Bool {
+        FileManager.default.fileExists(atPath: legacyPlistURL.path)
+            && FileManager.default.fileExists(
+                atPath: "/Library/PrivilegedHelperTools/com.srimanachanta.stasis.charging-helper"
+            )
+    }
+
     private static var hasTeamIdentifier: Bool {
         var staticCode: SecStaticCode?
         guard SecStaticCodeCreateWithPath(
@@ -146,7 +157,7 @@ class ChargingHelperManager {
                 }
             }
         case .legacy:
-            guard isInstalled else {
+            guard isInstalled || Self.legacyDaemonFilesPresent else {
                 throw ChargingHelperError.installerRequired
             }
         }
@@ -188,7 +199,11 @@ class ChargingHelperManager {
             helperStatus = .requiresApproval
             isOperational = false
         default:
-            helperStatus = .notInstalled
+            if deployment == .legacy, Self.legacyDaemonFilesPresent {
+                helperStatus = .installed
+            } else {
+                helperStatus = .notInstalled
+            }
             isOperational = false
         }
     }
