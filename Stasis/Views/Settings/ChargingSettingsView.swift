@@ -50,6 +50,27 @@ struct ChargingSettingsView: View {
 
     var body: some View {
         Form {
+            // The charge controls and the capability probe both run through the
+            // privileged helper, so this entry point must not depend on the
+            // capabilities it is needed to detect.
+            if helperManager.helperStatus != .installed {
+                Section {
+                    Button("Install charging helper") {
+                        installHelper()
+                    }
+                    if let installError {
+                        Text(installError)
+                            .font(.callout)
+                            .foregroundStyle(.red)
+                    }
+                } header: {
+                    Text("System access")
+                } footer: {
+                    Text(
+                        "Charge-limit control needs the privileged helper. Install it to enable the controls below."
+                    )
+                }
+            }
             Section {
                 Toggle(
                     "Manage charging",
@@ -60,7 +81,7 @@ struct ChargingSettingsView: View {
                         }
                     )
                 )
-                .disabled(!hasAnyControl || helperManager.helperStatus == .requiresApproval)
+                .disabled(helperManager.helperStatus == .requiresApproval)
 
                 if helperManager.helperStatus == .requiresApproval {
                     LabeledContent {
@@ -278,6 +299,16 @@ struct ChargingSettingsView: View {
             if let installError {
                 Text(installError)
             }
+        }
+    }
+
+    private func installHelper() {
+        do {
+            try helperManager.install()
+            helperManager.refreshStatus()
+        } catch {
+            logger.error("Failed to install charging helper: \(error)")
+            installError = error.localizedDescription
         }
     }
 
