@@ -241,6 +241,10 @@ class ChargingHelperManager {
         lastLoggedError = nil
         isOperational = true
         helperStatus = .installed
+        NotificationCenter.default.post(
+            name: .chargingHelperBecameOperational,
+            object: nil
+        )
     }
 
     func markUnavailable(_ message: String) {

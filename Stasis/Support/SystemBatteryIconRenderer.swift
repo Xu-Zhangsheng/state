@@ -318,8 +318,13 @@ enum SystemBatteryIconRenderer {
             ]
         )
         let textSize = text.size()
+        let centeredX = digitBox.midX - textSize.width / 2 + 2.0
+        // The digits have to stay inside the charged region. Once the boundary
+        // cuts through a glyph the part beyond it is punched out of the other
+        // tone and the digit reads as clipped.
+        let boundaryInPoints = CGFloat(boundary) / CGFloat(scale)
         let textOrigin = NSPoint(
-            x: digitBox.midX - textSize.width / 2 + 2.0,
+            x: min(centeredX, boundaryInPoints - textSize.width - 1),
             y: digitBox.midY - textSize.height / 2 + 0.4
         )
         NSGraphicsContext.saveGraphicsState()

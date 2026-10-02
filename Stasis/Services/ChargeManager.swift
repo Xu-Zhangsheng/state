@@ -6,6 +6,15 @@ import UserNotifications
 import os.log
 import smc_power
 
+extension Notification.Name {
+    /// Posted once the privileged helper answers again. The charge policy is
+    /// stored in SMC writes that do not survive the helper, so it has to be
+    /// pushed again after every restart or reinstall.
+    static let chargingHelperBecameOperational = Notification.Name(
+        "com.srimanachanta.stasis.chargingHelperBecameOperational"
+    )
+}
+
 @MainActor
 @Observable
 class ChargeManager {
@@ -19,6 +28,8 @@ class ChargeManager {
 
     private var metricsObservation: Task<Void, Never>?
     private var settingsObservation: Task<Void, Never>?
+    private var helperObserver: NSObjectProtocol?
+    private var helperProbe: Task<Void, Never>?
 
     private var lastAdapterConnected: Bool?
     private var lastManageChargingEnabled: Bool?
@@ -44,6 +55,8 @@ class ChargeManager {
         self.batteryService = batteryService
         startObservingMetrics()
         startObservingSettings()
+        startObservingHelper()
+        reapplyPolicy()
     }
 
     private func startObservingMetrics() {
@@ -107,6 +120,7 @@ class ChargeManager {
 
         guard ChargingHelperManager.shared.isOperational else {
             updateSleepAssertion(shouldPreventSleep: false)
+            ensureHelperAvailable()
             return
         }
 
@@ -402,10 +416,52 @@ class ChargeManager {
         updateSleepAssertion(shouldPreventSleep: false)
     }
 
+    /// Re-sends the current policy even though the cached request still
+    /// matches, because the SMC state that request describes is gone whenever
+    /// the helper restarts.
+    func reapplyPolicy() {
+        guard !isShuttingDown else { return }
+        lastAppliedPowerState = nil
+        evaluate(controlState: batteryService.controlState)
+    }
+
+    private func startObservingHelper() {
+        helperObserver = NotificationCenter.default.addObserver(
+            forName: .chargingHelperBecameOperational,
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            Task { @MainActor in
+                self?.reapplyPolicy()
+            }
+        }
+    }
+
+    /// Runs while the helper is unavailable: reconnects, then re-applies once
+    /// it answers. Single-flight so the polling loop cannot stack attempts.
+    private func ensureHelperAvailable() {
+        guard helperProbe == nil else { return }
+        helperProbe = Task { [weak self] in
+            let available = await ChargingHelperManager.shared.verifyAvailability()
+            guard let self else { return }
+            self.helperProbe = nil
+            if !available {
+                try? await Task.sleep(for: .seconds(5))
+            }
+            self.reapplyPolicy()
+        }
+    }
+
     private func stopObservingPolicyInputs() {
         metricsObservation?.cancel()
         metricsObservation = nil
         settingsObservation?.cancel()
         settingsObservation = nil
+        if let helperObserver {
+            NotificationCenter.default.removeObserver(helperObserver)
+            self.helperObserver = nil
+        }
+        helperProbe?.cancel()
+        helperProbe = nil
     }
 }
