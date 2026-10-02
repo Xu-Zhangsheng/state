@@ -3198,6 +3198,28 @@
         }
       }
     },
+    "Not Supplying" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Supplying"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未供电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未供電"
+          }
+        }
+      }
+    },
     "Not Charging" : {
       "localizations" : {
         "en" : {

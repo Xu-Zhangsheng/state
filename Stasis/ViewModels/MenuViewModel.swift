@@ -326,8 +326,14 @@ class MenuViewModel {
         let voltageFormat = FloatingPointFormatStyle<Double>.number.precision(.fractionLength(2))
         let currentFormat = FloatingPointFormatStyle<Double>.number.precision(.fractionLength(2))
 
-        externalInputText =
+        let externalInput =
             "\(adapter.adapterVoltage.formatted(voltageFormat))V @ \(adapter.adapterCurrent.formatted(currentFormat))A"
+        // An attached adapter can legitimately report no output while the
+        // battery is draining, so say so instead of showing a bare zero.
+        externalInputText =
+            adapter.adapterConnected && stableAdapterPower <= 0 && stableBatteryPower < 0
+            ? externalInput + " · " + String(localized: "Not Supplying")
+            : externalInput
 
         internalInputText =
             "\(metrics.batteryVoltage.formatted(voltageFormat))V @ \(metrics.batteryCurrent.formatted(currentFormat))A"
@@ -364,19 +370,21 @@ class MenuViewModel {
         batteryPower: Double,
         adapterPower: Double
     ) -> PowerSource {
-        if battery.isUsingACPower || battery.isCharging {
+        if battery.isCharging {
             return .acAdapter
         }
 
-        guard adapter.adapterConnected || battery.externalConnected else {
-            return .battery
+        // A connected adapter can coexist with intentional battery discharge:
+        // while the charge sits above its limit the firmware runs the machine
+        // from the battery and the adapter delivers nothing. The source has to
+        // follow the measured flow, not the attachment, or the diagram claims
+        // a zero-watt adapter is powering the computer.
+        if batteryPower < 0 {
+            return adapterPower > 0 ? .both : .battery
         }
 
-        // A connected adapter can coexist with intentional battery discharge.
-        // Only show a merged flow when both measurements are meaningfully
-        // outside their noise floor.
-        if batteryPower < 0, adapterPower > 0 {
-            return .both
+        if battery.isUsingACPower || adapter.adapterConnected || battery.externalConnected {
+            return .acAdapter
         }
         return .battery
     }
